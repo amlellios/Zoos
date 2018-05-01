@@ -105,7 +105,7 @@
             this.Correct.AutoSize = true;
             this.Correct.Font = new System.Drawing.Font("Rockwell", 16.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Correct.ForeColor = System.Drawing.Color.ForestGreen;
-            this.Correct.Location = new System.Drawing.Point(641, 779);
+            this.Correct.Location = new System.Drawing.Point(625, 792);
             this.Correct.Name = "Correct";
             this.Correct.Size = new System.Drawing.Size(176, 49);
             this.Correct.TabIndex = 10;
@@ -145,7 +145,7 @@
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Rockwell", 16.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.Red;
-            this.label5.Location = new System.Drawing.Point(863, 784);
+            this.label5.Location = new System.Drawing.Point(892, 792);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(203, 49);
             this.label5.TabIndex = 11;
