@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Pisces_Game
 {
-    public partial class SupriseRound2 : Form
+    public partial class Round9 : Form
     {
-        public SupriseRound2()
+        public Round9()
         {
             InitializeComponent();
         }

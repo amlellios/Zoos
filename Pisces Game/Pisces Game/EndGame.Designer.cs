@@ -1,6 +1,6 @@
 ﻿namespace Pisces_Game
 {
-    partial class SupriseRound2
+    partial class EndGame
     {
         /// <summary>
         /// Required designer variable.
@@ -28,9 +28,17 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.SuspendLayout();
+            // 
+            // EndGame
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Text = "SupriseRound2";
+            this.ClientSize = new System.Drawing.Size(1954, 1031);
+            this.Name = "EndGame";
+            this.Text = "EndGame";
+            this.ResumeLayout(false);
+
         }
 
         #endregion

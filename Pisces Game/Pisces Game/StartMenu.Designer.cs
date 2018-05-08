@@ -36,8 +36,8 @@
             // 
             this.StartBtn.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.StartBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.StartBtn.Location = new System.Drawing.Point(824, 902);
-            this.StartBtn.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.StartBtn.Location = new System.Drawing.Point(938, 967);
+            this.StartBtn.Margin = new System.Windows.Forms.Padding(6);
             this.StartBtn.Name = "StartBtn";
             this.StartBtn.Size = new System.Drawing.Size(302, 116);
             this.StartBtn.TabIndex = 1;
@@ -55,7 +55,7 @@
             this.ClientSize = new System.Drawing.Size(1968, 1464);
             this.Controls.Add(this.StartBtn);
             this.DoubleBuffered = true;
-            this.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.Margin = new System.Windows.Forms.Padding(6);
             this.Name = "StartMenu";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Pisces Game";

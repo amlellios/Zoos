@@ -80,12 +80,12 @@ namespace Pisces_Game
 
             private void ContinueBtn_Click(object sender, EventArgs e)
             {
-                Round2 round2 = new Round2();
-                round2.Visible = true;
+                Round2Surprise Surprise2 = new Round2Surprise();
+                Surprise2.Visible = true;
                 this.Hide();
             }
 
-            private void AriesLbl_Click(object sender, EventArgs e)
+            private void AriesLbl_Click(object sender, EventArgs e)                                                                                                                                                                                         
             {
 
             }
@@ -104,11 +104,246 @@ namespace Pisces_Game
             {
 
             }
+
+        private void label23_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label24_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label21_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label22_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label19_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label20_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label17_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label18_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label15_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label16_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label13_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label14_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label11_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label12_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label8_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label10_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label6_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label7_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label4_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void GovernmentMoneyLbl_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label9_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void TicketSalesLbl_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void TicketLbl_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void DonationMoneyLbl_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void DonationsLbl_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void MoneyLbl_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void HeaderLbl_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void TotalMoneysLbl_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void FishTakenLbl_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void EmployeeMoneyLbl_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void GiftMoneyLbl_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void KestrelMoneyLbl_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void CowMoneyLbl_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void DeerMoneyLbl_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void SalamanderMoneyLbl_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void CatMoneyLbl_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void EmployeeLbl_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void GiftLbl_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void KestrelLbl_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void CowLbl_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void DeerLbl_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void SalamanderLbl_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void CatLbl_Click(object sender, EventArgs e)
+        {
+
+        }
         //private void ContinueBtn_Click(object sender, EventArgs e)
         //{
 
         //}
-        }
+    }
     }
 
    

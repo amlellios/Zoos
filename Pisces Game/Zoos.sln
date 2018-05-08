@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26730.16
+VisualStudioVersion = 15.0.27004.2005
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pisces Game", "Pisces Game\Pisces Game.csproj", "{1785A150-DC0F-41A0-92D3-38F78FEEA2B8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zoos", "Pisces Game\Zoos.csproj", "{1785A150-DC0F-41A0-92D3-38F78FEEA2B8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

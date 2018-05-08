@@ -10,10 +10,8 @@ using System.Windows.Forms;
 
 namespace Pisces_Game
 {
-    public partial class Round3 : Form
+    public partial class Round4 : Form
     {
-
-
 
 
 
@@ -29,22 +27,14 @@ namespace Pisces_Game
         public static int EmployeeMoney;
 
 
-
-
-        public Round3()
+        public Round4()
         {
             InitializeComponent();
         }
 
-        //private void CowButton2_Click(object sender, EventArgs e)
-        //{
 
-        //}
 
-        //private void CatButton2_Click(object sender, EventArgs e)
-        //{
 
-        //}
         private void SalamanderButton2_Click(object sender, EventArgs e)
         {
             SalamanderMoney = Convert.ToInt32(Salamanderbox.Value);
@@ -77,14 +67,19 @@ namespace Pisces_Game
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Round3Summary roundS3 = new Round3Summary();
-            roundS3.Visible = true;
+            Round4Summary roundS6 = new Round4Summary();
+            roundS6.Visible = true;
             this.Hide();
         }
 
         private void CowButton2_Click(object sender, EventArgs e)
         {
             CowMoney = Convert.ToInt32(Cowbox2.Value);
+        }
+
+        private void label8_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

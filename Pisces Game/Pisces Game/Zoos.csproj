@@ -1,0 +1,406 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{1785A150-DC0F-41A0-92D3-38F78FEEA2B8}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Pisces_Game</RootNamespace>
+    <AssemblyName>Pisces Game</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="EndGame.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EndGame.Designer.cs">
+      <DependentUpon>EndGame.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Instructions.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Instructions.Designer.cs">
+      <DependentUpon>Instructions.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Round1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Round1.Designer.cs">
+      <DependentUpon>Round1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Round10.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Round10.Designer.cs">
+      <DependentUpon>Round10.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Round10Summary.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Round10Summary.Designer.cs">
+      <DependentUpon>Round10Summary.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Round10Surprise.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Round10Surprise.Designer.cs">
+      <DependentUpon>Round10Surprise.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Round11.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Round11.Designer.cs">
+      <DependentUpon>Round11.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Round11Summary.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Round11Summary.Designer.cs">
+      <DependentUpon>Round11Summary.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Round11Surprise.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Round11Surprise.Designer.cs">
+      <DependentUpon>Round11Surprise.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Round12.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Round12.Designer.cs">
+      <DependentUpon>Round12.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Round12Summary.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Round12Summary.Designer.cs">
+      <DependentUpon>Round12Summary.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Round1Summary.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Round1Summary.Designer.cs">
+      <DependentUpon>Round1Summary.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Round2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Round2.Designer.cs">
+      <DependentUpon>Round2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Round2Summary.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Round2Summary.Designer.cs">
+      <DependentUpon>Round2Summary.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Round3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Round3.Designer.cs">
+      <DependentUpon>Round3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Round3Summary.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Round3Summary.Designer.cs">
+      <DependentUpon>Round3Summary.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Round4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Round4.Designer.cs">
+      <DependentUpon>Round4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Round4Summary.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Round4Summary.Designer.cs">
+      <DependentUpon>Round4Summary.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Round5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Round5.Designer.cs">
+      <DependentUpon>Round5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Round5Summary.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Round5Summary.Designer.cs">
+      <DependentUpon>Round5Summary.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Round6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Round6.Designer.cs">
+      <DependentUpon>Round6.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Round6Summary.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Round6Summary.Designer.cs">
+      <DependentUpon>Round6Summary.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Round6Surprise.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Round6Surprise.Designer.cs">
+      <DependentUpon>Round6Surprise.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Round7.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Round7.Designer.cs">
+      <DependentUpon>Round7.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Round7Summary.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Round7Summary.Designer.cs">
+      <DependentUpon>Round7Summary.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Round8.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Round8.Designer.cs">
+      <DependentUpon>Round8.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Round8Summary.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Round8Summary.Designer.cs">
+      <DependentUpon>Round8Summary.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Round8Surprise.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Round8Surprise.Designer.cs">
+      <DependentUpon>Round8Surprise.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Round9.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Round9.Designer.cs">
+      <DependentUpon>Round9.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Round9Summary.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Round9Summary.Designer.cs">
+      <DependentUpon>Round9Summary.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Round9Surprise.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Round9Surprise.Designer.cs">
+      <DependentUpon>Round9Surprise.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StartMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StartMenu.Designer.cs">
+      <DependentUpon>StartMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Round2Surprise.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Round2Surprise.Designer.cs">
+      <DependentUpon>Round2Surprise.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SurpriseRound4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SurpriseRound4.Designer.cs">
+      <DependentUpon>SurpriseRound4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SurpriseRound5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SurpriseRound5.Designer.cs">
+      <DependentUpon>SurpriseRound5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Sustainability1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sustainability1.Designer.cs">
+      <DependentUpon>Sustainability1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Thanks4Playing.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Thanks4Playing.Designer.cs">
+      <DependentUpon>Thanks4Playing.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="EndGame.resx">
+      <DependentUpon>EndGame.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Instructions.resx">
+      <DependentUpon>Instructions.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Round1.resx">
+      <DependentUpon>Round1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Round10.resx">
+      <DependentUpon>Round10.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Round10Summary.resx">
+      <DependentUpon>Round10Summary.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Round10Surprise.resx">
+      <DependentUpon>Round10Surprise.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Round11.resx">
+      <DependentUpon>Round11.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Round11Summary.resx">
+      <DependentUpon>Round11Summary.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Round11Surprise.resx">
+      <DependentUpon>Round11Surprise.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Round12.resx">
+      <DependentUpon>Round12.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Round12Summary.resx">
+      <DependentUpon>Round12Summary.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Round1Summary.resx">
+      <DependentUpon>Round1Summary.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Round2.resx">
+      <DependentUpon>Round2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Round2Summary.resx">
+      <DependentUpon>Round2Summary.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Round3.resx">
+      <DependentUpon>Round3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Round3Summary.resx">
+      <DependentUpon>Round3Summary.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Round4.resx">
+      <DependentUpon>Round4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Round4Summary.resx">
+      <DependentUpon>Round4Summary.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Round5.resx">
+      <DependentUpon>Round5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Round5Summary.resx">
+      <DependentUpon>Round5Summary.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Round6.resx">
+      <DependentUpon>Round6.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Round6Summary.resx">
+      <DependentUpon>Round6Summary.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Round6Surprise.resx">
+      <DependentUpon>Round6Surprise.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Round7.resx">
+      <DependentUpon>Round7.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Round7Summary.resx">
+      <DependentUpon>Round7Summary.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Round8.resx">
+      <DependentUpon>Round8.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Round8Summary.resx">
+      <DependentUpon>Round8Summary.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Round8Surprise.resx">
+      <DependentUpon>Round8Surprise.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Round9.resx">
+      <DependentUpon>Round9.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Round9Summary.resx">
+      <DependentUpon>Round9Summary.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Round9Surprise.resx">
+      <DependentUpon>Round9Surprise.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StartMenu.resx">
+      <DependentUpon>StartMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Round2Surprise.resx">
+      <DependentUpon>Round2Surprise.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SurpriseRound4.resx">
+      <DependentUpon>SurpriseRound4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SurpriseRound5.resx">
+      <DependentUpon>SurpriseRound5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sustainability1.resx">
+      <DependentUpon>Sustainability1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Thanks4Playing.resx">
+      <DependentUpon>Thanks4Playing.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
