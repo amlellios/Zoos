@@ -29,367 +29,386 @@
         private void InitializeComponent()
         {
             this.HeaderLbl = new System.Windows.Forms.Label();
-            this.AriesLbl = new System.Windows.Forms.Label();
-            this.TaurusLbl = new System.Windows.Forms.Label();
-            this.GeminiLbl = new System.Windows.Forms.Label();
-            this.CancerLbl = new System.Windows.Forms.Label();
-            this.LeoLbl = new System.Windows.Forms.Label();
-            this.VirgoLbl = new System.Windows.Forms.Label();
-            this.LibraLbl = new System.Windows.Forms.Label();
-            this.ScorpioLbl = new System.Windows.Forms.Label();
-            this.SagLbl = new System.Windows.Forms.Label();
-            this.CapLbl = new System.Windows.Forms.Label();
-            this.AquaLbl = new System.Windows.Forms.Label();
-            this.PiscesLbl = new System.Windows.Forms.Label();
-            this.AriesFishLbl = new System.Windows.Forms.Label();
-            this.TaurusFishLbl = new System.Windows.Forms.Label();
-            this.GemFishLbl = new System.Windows.Forms.Label();
-            this.CanFishLbl = new System.Windows.Forms.Label();
-            this.LeoFishLbl = new System.Windows.Forms.Label();
-            this.VirFishLbl = new System.Windows.Forms.Label();
-            this.LibFishLbl = new System.Windows.Forms.Label();
-            this.ScorFishLbl = new System.Windows.Forms.Label();
-            this.SagFishLbl = new System.Windows.Forms.Label();
-            this.CapFishLbl = new System.Windows.Forms.Label();
-            this.AquaFishLbl = new System.Windows.Forms.Label();
-            this.PiscFishLbl = new System.Windows.Forms.Label();
+            this.CatLbl = new System.Windows.Forms.Label();
+            this.SalamanderLbl = new System.Windows.Forms.Label();
+            this.DeerLbl = new System.Windows.Forms.Label();
+            this.CowLbl = new System.Windows.Forms.Label();
+            this.KestrelLbl = new System.Windows.Forms.Label();
+            this.GiftLbl = new System.Windows.Forms.Label();
+            this.EmployeeLbl = new System.Windows.Forms.Label();
+            this.CatMoneyLbl = new System.Windows.Forms.Label();
+            this.SalamanderMoneyLbl = new System.Windows.Forms.Label();
+            this.DeerMoneyLbl = new System.Windows.Forms.Label();
+            this.CowMoneyLbl = new System.Windows.Forms.Label();
+            this.KestrelMoneyLbl = new System.Windows.Forms.Label();
+            this.GiftMoneyLbl = new System.Windows.Forms.Label();
+            this.EmployeeMoneyLbl = new System.Windows.Forms.Label();
             this.FishTakenLbl = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.TotalFishLbl = new System.Windows.Forms.Label();
+            this.TotalMoneysLbl = new System.Windows.Forms.Label();
             this.ContinueBtn = new System.Windows.Forms.Button();
+            this.label3 = new System.Windows.Forms.Label();
+            this.MoneyLbl = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.DonationsLbl = new System.Windows.Forms.Label();
+            this.DonationMoneyLbl = new System.Windows.Forms.Label();
+            this.TicketMoneyLbl = new System.Windows.Forms.Label();
+            this.TicketLbl = new System.Windows.Forms.Label();
+            this.GovernmentMoneyLbl = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // HeaderLbl
             // 
             this.HeaderLbl.AutoSize = true;
             this.HeaderLbl.BackColor = System.Drawing.Color.Transparent;
-            this.HeaderLbl.Font = new System.Drawing.Font("Rockwell Extra Bold", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.HeaderLbl.Location = new System.Drawing.Point(220, 9);
+            this.HeaderLbl.Font = new System.Drawing.Font("Bradley Hand ITC", 36F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.HeaderLbl.Location = new System.Drawing.Point(450, 14);
+            this.HeaderLbl.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.HeaderLbl.Name = "HeaderLbl";
-            this.HeaderLbl.Size = new System.Drawing.Size(565, 56);
+            this.HeaderLbl.Size = new System.Drawing.Size(1002, 120);
             this.HeaderLbl.TabIndex = 2;
             this.HeaderLbl.Text = "ROUND 1 SUMMARY";
             this.HeaderLbl.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
-            // AriesLbl
+            // CatLbl
             // 
-            this.AriesLbl.AutoSize = true;
-            this.AriesLbl.Font = new System.Drawing.Font("Rockwell Extra Bold", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.AriesLbl.Location = new System.Drawing.Point(118, 157);
-            this.AriesLbl.Name = "AriesLbl";
-            this.AriesLbl.Size = new System.Drawing.Size(85, 28);
-            this.AriesLbl.TabIndex = 3;
-            this.AriesLbl.Text = "Aries";
+            this.CatLbl.AutoSize = true;
+            this.CatLbl.Font = new System.Drawing.Font("Rockwell Extra Bold", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CatLbl.Location = new System.Drawing.Point(212, 361);
+            this.CatLbl.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.CatLbl.Name = "CatLbl";
+            this.CatLbl.Size = new System.Drawing.Size(247, 56);
+            this.CatLbl.TabIndex = 3;
+            this.CatLbl.Text = "Bob Cat";
+            this.CatLbl.Click += new System.EventHandler(this.AriesLbl_Click);
             // 
-            // TaurusLbl
+            // SalamanderLbl
             // 
-            this.TaurusLbl.AutoSize = true;
-            this.TaurusLbl.Font = new System.Drawing.Font("Rockwell Extra Bold", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TaurusLbl.Location = new System.Drawing.Point(112, 216);
-            this.TaurusLbl.Name = "TaurusLbl";
-            this.TaurusLbl.Size = new System.Drawing.Size(114, 28);
-            this.TaurusLbl.TabIndex = 4;
-            this.TaurusLbl.Text = "Taurus";
+            this.SalamanderLbl.AutoSize = true;
+            this.SalamanderLbl.Font = new System.Drawing.Font("Rockwell Extra Bold", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.SalamanderLbl.Location = new System.Drawing.Point(55, 474);
+            this.SalamanderLbl.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.SalamanderLbl.Name = "SalamanderLbl";
+            this.SalamanderLbl.Size = new System.Drawing.Size(540, 56);
+            this.SalamanderLbl.TabIndex = 4;
+            this.SalamanderLbl.Text = "Tiger Salamander";
             // 
-            // GeminiLbl
+            // DeerLbl
             // 
-            this.GeminiLbl.AutoSize = true;
-            this.GeminiLbl.Font = new System.Drawing.Font("Rockwell Extra Bold", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.GeminiLbl.Location = new System.Drawing.Point(109, 276);
-            this.GeminiLbl.Name = "GeminiLbl";
-            this.GeminiLbl.Size = new System.Drawing.Size(117, 28);
-            this.GeminiLbl.TabIndex = 5;
-            this.GeminiLbl.Text = "Gemini";
+            this.DeerLbl.AutoSize = true;
+            this.DeerLbl.Font = new System.Drawing.Font("Rockwell Extra Bold", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.DeerLbl.Location = new System.Drawing.Point(274, 590);
+            this.DeerLbl.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.DeerLbl.Name = "DeerLbl";
+            this.DeerLbl.Size = new System.Drawing.Size(160, 56);
+            this.DeerLbl.TabIndex = 5;
+            this.DeerLbl.Text = "Deer";
             // 
-            // CancerLbl
+            // CowLbl
             // 
-            this.CancerLbl.AutoSize = true;
-            this.CancerLbl.Font = new System.Drawing.Font("Rockwell Extra Bold", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CancerLbl.Location = new System.Drawing.Point(109, 340);
-            this.CancerLbl.Name = "CancerLbl";
-            this.CancerLbl.Size = new System.Drawing.Size(115, 28);
-            this.CancerLbl.TabIndex = 6;
-            this.CancerLbl.Text = "Cancer";
+            this.CowLbl.AutoSize = true;
+            this.CowLbl.Font = new System.Drawing.Font("Rockwell Extra Bold", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CowLbl.Location = new System.Drawing.Point(79, 713);
+            this.CowLbl.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.CowLbl.Name = "CowLbl";
+            this.CowLbl.Size = new System.Drawing.Size(516, 56);
+            this.CowLbl.TabIndex = 6;
+            this.CowLbl.Text = "Black Angus Cow";
             // 
-            // LeoLbl
+            // KestrelLbl
             // 
-            this.LeoLbl.AutoSize = true;
-            this.LeoLbl.Font = new System.Drawing.Font("Rockwell Extra Bold", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LeoLbl.Location = new System.Drawing.Point(118, 405);
-            this.LeoLbl.Name = "LeoLbl";
-            this.LeoLbl.Size = new System.Drawing.Size(64, 28);
-            this.LeoLbl.TabIndex = 7;
-            this.LeoLbl.Text = "Leo";
+            this.KestrelLbl.AutoSize = true;
+            this.KestrelLbl.Font = new System.Drawing.Font("Rockwell Extra Bold", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.KestrelLbl.Location = new System.Drawing.Point(73, 838);
+            this.KestrelLbl.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.KestrelLbl.Name = "KestrelLbl";
+            this.KestrelLbl.Size = new System.Drawing.Size(522, 56);
+            this.KestrelLbl.TabIndex = 7;
+            this.KestrelLbl.Text = "American Kestrel";
             // 
-            // VirgoLbl
+            // GiftLbl
             // 
-            this.VirgoLbl.AutoSize = true;
-            this.VirgoLbl.Font = new System.Drawing.Font("Rockwell Extra Bold", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.VirgoLbl.Location = new System.Drawing.Point(118, 464);
-            this.VirgoLbl.Name = "VirgoLbl";
-            this.VirgoLbl.Size = new System.Drawing.Size(90, 28);
-            this.VirgoLbl.TabIndex = 8;
-            this.VirgoLbl.Text = "Virgo";
+            this.GiftLbl.AutoSize = true;
+            this.GiftLbl.Font = new System.Drawing.Font("Rockwell Extra Bold", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.GiftLbl.Location = new System.Drawing.Point(1101, 383);
+            this.GiftLbl.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.GiftLbl.Name = "GiftLbl";
+            this.GiftLbl.Size = new System.Drawing.Size(282, 56);
+            this.GiftLbl.TabIndex = 9;
+            this.GiftLbl.Text = "Gift Shop";
             // 
-            // LibraLbl
+            // EmployeeLbl
             // 
-            this.LibraLbl.AutoSize = true;
-            this.LibraLbl.Font = new System.Drawing.Font("Rockwell Extra Bold", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LibraLbl.Location = new System.Drawing.Point(531, 157);
-            this.LibraLbl.Name = "LibraLbl";
-            this.LibraLbl.Size = new System.Drawing.Size(89, 28);
-            this.LibraLbl.TabIndex = 9;
-            this.LibraLbl.Text = "Libra";
+            this.EmployeeLbl.AutoSize = true;
+            this.EmployeeLbl.Font = new System.Drawing.Font("Rockwell Extra Bold", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.EmployeeLbl.Location = new System.Drawing.Point(1057, 465);
+            this.EmployeeLbl.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.EmployeeLbl.Name = "EmployeeLbl";
+            this.EmployeeLbl.Size = new System.Drawing.Size(340, 56);
+            this.EmployeeLbl.TabIndex = 10;
+            this.EmployeeLbl.Text = "Employees";
             // 
-            // ScorpioLbl
+            // CatMoneyLbl
             // 
-            this.ScorpioLbl.AutoSize = true;
-            this.ScorpioLbl.Font = new System.Drawing.Font("Rockwell Extra Bold", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ScorpioLbl.Location = new System.Drawing.Point(531, 216);
-            this.ScorpioLbl.Name = "ScorpioLbl";
-            this.ScorpioLbl.Size = new System.Drawing.Size(122, 28);
-            this.ScorpioLbl.TabIndex = 10;
-            this.ScorpioLbl.Text = "Scorpio";
+            this.CatMoneyLbl.AutoSize = true;
+            this.CatMoneyLbl.Font = new System.Drawing.Font("Rockwell Extra Bold", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CatMoneyLbl.Location = new System.Drawing.Point(607, 361);
+            this.CatMoneyLbl.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.CatMoneyLbl.Name = "CatMoneyLbl";
+            this.CatMoneyLbl.Size = new System.Drawing.Size(57, 56);
+            this.CatMoneyLbl.TabIndex = 15;
+            this.CatMoneyLbl.Text = "0";
+            this.CatMoneyLbl.Click += new System.EventHandler(this.AriesFishLbl_Click);
             // 
-            // SagLbl
+            // SalamanderMoneyLbl
             // 
-            this.SagLbl.AutoSize = true;
-            this.SagLbl.Font = new System.Drawing.Font("Rockwell Extra Bold", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.SagLbl.Location = new System.Drawing.Point(531, 276);
-            this.SagLbl.Name = "SagLbl";
-            this.SagLbl.Size = new System.Drawing.Size(171, 28);
-            this.SagLbl.TabIndex = 11;
-            this.SagLbl.Text = "Sagittarius";
+            this.SalamanderMoneyLbl.AutoSize = true;
+            this.SalamanderMoneyLbl.Font = new System.Drawing.Font("Rockwell Extra Bold", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.SalamanderMoneyLbl.Location = new System.Drawing.Point(607, 474);
+            this.SalamanderMoneyLbl.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.SalamanderMoneyLbl.Name = "SalamanderMoneyLbl";
+            this.SalamanderMoneyLbl.Size = new System.Drawing.Size(57, 56);
+            this.SalamanderMoneyLbl.TabIndex = 16;
+            this.SalamanderMoneyLbl.Text = "0";
             // 
-            // CapLbl
+            // DeerMoneyLbl
             // 
-            this.CapLbl.AutoSize = true;
-            this.CapLbl.Font = new System.Drawing.Font("Rockwell Extra Bold", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CapLbl.Location = new System.Drawing.Point(531, 340);
-            this.CapLbl.Name = "CapLbl";
-            this.CapLbl.Size = new System.Drawing.Size(158, 28);
-            this.CapLbl.TabIndex = 12;
-            this.CapLbl.Text = "Capricorn";
+            this.DeerMoneyLbl.AutoSize = true;
+            this.DeerMoneyLbl.Font = new System.Drawing.Font("Rockwell Extra Bold", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.DeerMoneyLbl.Location = new System.Drawing.Point(607, 590);
+            this.DeerMoneyLbl.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.DeerMoneyLbl.Name = "DeerMoneyLbl";
+            this.DeerMoneyLbl.Size = new System.Drawing.Size(57, 56);
+            this.DeerMoneyLbl.TabIndex = 17;
+            this.DeerMoneyLbl.Text = "0";
             // 
-            // AquaLbl
+            // CowMoneyLbl
             // 
-            this.AquaLbl.AutoSize = true;
-            this.AquaLbl.Font = new System.Drawing.Font("Rockwell Extra Bold", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.AquaLbl.Location = new System.Drawing.Point(531, 405);
-            this.AquaLbl.Name = "AquaLbl";
-            this.AquaLbl.Size = new System.Drawing.Size(143, 28);
-            this.AquaLbl.TabIndex = 13;
-            this.AquaLbl.Text = "Aquarius";
+            this.CowMoneyLbl.AutoSize = true;
+            this.CowMoneyLbl.Font = new System.Drawing.Font("Rockwell Extra Bold", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CowMoneyLbl.Location = new System.Drawing.Point(607, 713);
+            this.CowMoneyLbl.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.CowMoneyLbl.Name = "CowMoneyLbl";
+            this.CowMoneyLbl.Size = new System.Drawing.Size(57, 56);
+            this.CowMoneyLbl.TabIndex = 18;
+            this.CowMoneyLbl.Text = "0";
             // 
-            // PiscesLbl
+            // KestrelMoneyLbl
             // 
-            this.PiscesLbl.AutoSize = true;
-            this.PiscesLbl.Font = new System.Drawing.Font("Rockwell Extra Bold", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.PiscesLbl.Location = new System.Drawing.Point(531, 464);
-            this.PiscesLbl.Name = "PiscesLbl";
-            this.PiscesLbl.Size = new System.Drawing.Size(106, 28);
-            this.PiscesLbl.TabIndex = 14;
-            this.PiscesLbl.Text = "Pisces";
+            this.KestrelMoneyLbl.AutoSize = true;
+            this.KestrelMoneyLbl.Font = new System.Drawing.Font("Rockwell Extra Bold", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.KestrelMoneyLbl.Location = new System.Drawing.Point(607, 838);
+            this.KestrelMoneyLbl.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.KestrelMoneyLbl.Name = "KestrelMoneyLbl";
+            this.KestrelMoneyLbl.Size = new System.Drawing.Size(57, 56);
+            this.KestrelMoneyLbl.TabIndex = 19;
+            this.KestrelMoneyLbl.Text = "0";
             // 
-            // AriesFishLbl
+            // GiftMoneyLbl
             // 
-            this.AriesFishLbl.AutoSize = true;
-            this.AriesFishLbl.Font = new System.Drawing.Font("Rockwell Extra Bold", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.AriesFishLbl.Location = new System.Drawing.Point(305, 157);
-            this.AriesFishLbl.Name = "AriesFishLbl";
-            this.AriesFishLbl.Size = new System.Drawing.Size(29, 28);
-            this.AriesFishLbl.TabIndex = 15;
-            this.AriesFishLbl.Text = "0";
+            this.GiftMoneyLbl.AutoSize = true;
+            this.GiftMoneyLbl.Font = new System.Drawing.Font("Rockwell Extra Bold", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.GiftMoneyLbl.Location = new System.Drawing.Point(1579, 383);
+            this.GiftMoneyLbl.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.GiftMoneyLbl.Name = "GiftMoneyLbl";
+            this.GiftMoneyLbl.Size = new System.Drawing.Size(57, 56);
+            this.GiftMoneyLbl.TabIndex = 21;
+            this.GiftMoneyLbl.Text = "0";
             // 
-            // TaurusFishLbl
+            // EmployeeMoneyLbl
             // 
-            this.TaurusFishLbl.AutoSize = true;
-            this.TaurusFishLbl.Font = new System.Drawing.Font("Rockwell Extra Bold", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TaurusFishLbl.Location = new System.Drawing.Point(305, 216);
-            this.TaurusFishLbl.Name = "TaurusFishLbl";
-            this.TaurusFishLbl.Size = new System.Drawing.Size(29, 28);
-            this.TaurusFishLbl.TabIndex = 16;
-            this.TaurusFishLbl.Text = "0";
-            // 
-            // GemFishLbl
-            // 
-            this.GemFishLbl.AutoSize = true;
-            this.GemFishLbl.Font = new System.Drawing.Font("Rockwell Extra Bold", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.GemFishLbl.Location = new System.Drawing.Point(305, 276);
-            this.GemFishLbl.Name = "GemFishLbl";
-            this.GemFishLbl.Size = new System.Drawing.Size(29, 28);
-            this.GemFishLbl.TabIndex = 17;
-            this.GemFishLbl.Text = "0";
-            // 
-            // CanFishLbl
-            // 
-            this.CanFishLbl.AutoSize = true;
-            this.CanFishLbl.Font = new System.Drawing.Font("Rockwell Extra Bold", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CanFishLbl.Location = new System.Drawing.Point(305, 340);
-            this.CanFishLbl.Name = "CanFishLbl";
-            this.CanFishLbl.Size = new System.Drawing.Size(29, 28);
-            this.CanFishLbl.TabIndex = 18;
-            this.CanFishLbl.Text = "0";
-            // 
-            // LeoFishLbl
-            // 
-            this.LeoFishLbl.AutoSize = true;
-            this.LeoFishLbl.Font = new System.Drawing.Font("Rockwell Extra Bold", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LeoFishLbl.Location = new System.Drawing.Point(305, 405);
-            this.LeoFishLbl.Name = "LeoFishLbl";
-            this.LeoFishLbl.Size = new System.Drawing.Size(29, 28);
-            this.LeoFishLbl.TabIndex = 19;
-            this.LeoFishLbl.Text = "0";
-            // 
-            // VirFishLbl
-            // 
-            this.VirFishLbl.AutoSize = true;
-            this.VirFishLbl.Font = new System.Drawing.Font("Rockwell Extra Bold", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.VirFishLbl.Location = new System.Drawing.Point(305, 464);
-            this.VirFishLbl.Name = "VirFishLbl";
-            this.VirFishLbl.Size = new System.Drawing.Size(29, 28);
-            this.VirFishLbl.TabIndex = 20;
-            this.VirFishLbl.Text = "0";
-            // 
-            // LibFishLbl
-            // 
-            this.LibFishLbl.AutoSize = true;
-            this.LibFishLbl.Font = new System.Drawing.Font("Rockwell Extra Bold", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LibFishLbl.Location = new System.Drawing.Point(792, 157);
-            this.LibFishLbl.Name = "LibFishLbl";
-            this.LibFishLbl.Size = new System.Drawing.Size(29, 28);
-            this.LibFishLbl.TabIndex = 21;
-            this.LibFishLbl.Text = "0";
-            // 
-            // ScorFishLbl
-            // 
-            this.ScorFishLbl.AutoSize = true;
-            this.ScorFishLbl.Font = new System.Drawing.Font("Rockwell Extra Bold", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ScorFishLbl.Location = new System.Drawing.Point(792, 216);
-            this.ScorFishLbl.Name = "ScorFishLbl";
-            this.ScorFishLbl.Size = new System.Drawing.Size(29, 28);
-            this.ScorFishLbl.TabIndex = 22;
-            this.ScorFishLbl.Text = "0";
-            // 
-            // SagFishLbl
-            // 
-            this.SagFishLbl.AutoSize = true;
-            this.SagFishLbl.Font = new System.Drawing.Font("Rockwell Extra Bold", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.SagFishLbl.Location = new System.Drawing.Point(792, 276);
-            this.SagFishLbl.Name = "SagFishLbl";
-            this.SagFishLbl.Size = new System.Drawing.Size(29, 28);
-            this.SagFishLbl.TabIndex = 23;
-            this.SagFishLbl.Text = "0";
-            // 
-            // CapFishLbl
-            // 
-            this.CapFishLbl.AutoSize = true;
-            this.CapFishLbl.Font = new System.Drawing.Font("Rockwell Extra Bold", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CapFishLbl.Location = new System.Drawing.Point(792, 340);
-            this.CapFishLbl.Name = "CapFishLbl";
-            this.CapFishLbl.Size = new System.Drawing.Size(29, 28);
-            this.CapFishLbl.TabIndex = 24;
-            this.CapFishLbl.Text = "0";
-            // 
-            // AquaFishLbl
-            // 
-            this.AquaFishLbl.AutoSize = true;
-            this.AquaFishLbl.Font = new System.Drawing.Font("Rockwell Extra Bold", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.AquaFishLbl.Location = new System.Drawing.Point(792, 405);
-            this.AquaFishLbl.Name = "AquaFishLbl";
-            this.AquaFishLbl.Size = new System.Drawing.Size(29, 28);
-            this.AquaFishLbl.TabIndex = 25;
-            this.AquaFishLbl.Text = "0";
-            // 
-            // PiscFishLbl
-            // 
-            this.PiscFishLbl.AutoSize = true;
-            this.PiscFishLbl.Font = new System.Drawing.Font("Rockwell Extra Bold", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.PiscFishLbl.Location = new System.Drawing.Point(792, 464);
-            this.PiscFishLbl.Name = "PiscFishLbl";
-            this.PiscFishLbl.Size = new System.Drawing.Size(29, 28);
-            this.PiscFishLbl.TabIndex = 26;
-            this.PiscFishLbl.Text = "0";
+            this.EmployeeMoneyLbl.AutoSize = true;
+            this.EmployeeMoneyLbl.Font = new System.Drawing.Font("Rockwell Extra Bold", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.EmployeeMoneyLbl.Location = new System.Drawing.Point(1579, 465);
+            this.EmployeeMoneyLbl.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.EmployeeMoneyLbl.Name = "EmployeeMoneyLbl";
+            this.EmployeeMoneyLbl.Size = new System.Drawing.Size(57, 56);
+            this.EmployeeMoneyLbl.TabIndex = 22;
+            this.EmployeeMoneyLbl.Text = "0";
             // 
             // FishTakenLbl
             // 
             this.FishTakenLbl.AutoSize = true;
             this.FishTakenLbl.Font = new System.Drawing.Font("Rockwell Extra Bold", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.FishTakenLbl.Location = new System.Drawing.Point(307, 101);
+            this.FishTakenLbl.Location = new System.Drawing.Point(542, 134);
+            this.FishTakenLbl.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.FishTakenLbl.Name = "FishTakenLbl";
-            this.FishTakenLbl.Size = new System.Drawing.Size(330, 28);
+            this.FishTakenLbl.Size = new System.Drawing.Size(0, 56);
             this.FishTakenLbl.TabIndex = 27;
-            this.FishTakenLbl.Text = "Fish Taken Per Group:";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Rockwell Extra Bold", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(289, 549);
+            this.label1.Location = new System.Drawing.Point(662, 1056);
+            this.label1.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(282, 28);
+            this.label1.Size = new System.Drawing.Size(426, 56);
             this.label1.TabIndex = 28;
-            this.label1.Text = "Total Fish In Pond:";
+            this.label1.Text = "Total Moneys:";
             // 
-            // TotalFishLbl
+            // TotalMoneysLbl
             // 
-            this.TotalFishLbl.AutoSize = true;
-            this.TotalFishLbl.Font = new System.Drawing.Font("Rockwell Extra Bold", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TotalFishLbl.Location = new System.Drawing.Point(577, 549);
-            this.TotalFishLbl.Name = "TotalFishLbl";
-            this.TotalFishLbl.Size = new System.Drawing.Size(29, 28);
-            this.TotalFishLbl.TabIndex = 29;
-            this.TotalFishLbl.Text = "0";
+            this.TotalMoneysLbl.AutoSize = true;
+            this.TotalMoneysLbl.Font = new System.Drawing.Font("Rockwell Extra Bold", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TotalMoneysLbl.Location = new System.Drawing.Point(1154, 1056);
+            this.TotalMoneysLbl.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.TotalMoneysLbl.Name = "TotalMoneysLbl";
+            this.TotalMoneysLbl.Size = new System.Drawing.Size(57, 56);
+            this.TotalMoneysLbl.TabIndex = 29;
+            this.TotalMoneysLbl.Text = "0";
             // 
             // ContinueBtn
             // 
-            this.ContinueBtn.Location = new System.Drawing.Point(416, 610);
+            this.ContinueBtn.Location = new System.Drawing.Point(832, 1173);
+            this.ContinueBtn.Margin = new System.Windows.Forms.Padding(6);
             this.ContinueBtn.Name = "ContinueBtn";
-            this.ContinueBtn.Size = new System.Drawing.Size(155, 60);
+            this.ContinueBtn.Size = new System.Drawing.Size(310, 115);
             this.ContinueBtn.TabIndex = 30;
             this.ContinueBtn.Text = "Continue";
             this.ContinueBtn.UseVisualStyleBackColor = true;
             this.ContinueBtn.Click += new System.EventHandler(this.ContinueBtn_Click);
             // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Bradley Hand ITC", 19.875F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(1086, 251);
+            this.label3.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(364, 66);
+            this.label3.TabIndex = 32;
+            this.label3.Text = "Cost of Upkeep";
+            // 
+            // MoneyLbl
+            // 
+            this.MoneyLbl.AutoSize = true;
+            this.MoneyLbl.Font = new System.Drawing.Font("Bradley Hand ITC", 19.875F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.MoneyLbl.Location = new System.Drawing.Point(1086, 601);
+            this.MoneyLbl.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.MoneyLbl.Name = "MoneyLbl";
+            this.MoneyLbl.Size = new System.Drawing.Size(366, 66);
+            this.MoneyLbl.TabIndex = 33;
+            this.MoneyLbl.Text = "Money Earned";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Bradley Hand ITC", 19.875F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(174, 251);
+            this.label2.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(406, 66);
+            this.label2.TabIndex = 34;
+            this.label2.Text = "Cost of Animals";
+            // 
+            // DonationsLbl
+            // 
+            this.DonationsLbl.AutoSize = true;
+            this.DonationsLbl.Font = new System.Drawing.Font("Rockwell Extra Bold", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.DonationsLbl.Location = new System.Drawing.Point(1087, 713);
+            this.DonationsLbl.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.DonationsLbl.Name = "DonationsLbl";
+            this.DonationsLbl.Size = new System.Drawing.Size(321, 56);
+            this.DonationsLbl.TabIndex = 35;
+            this.DonationsLbl.Text = "Donations";
+            // 
+            // DonationMoneyLbl
+            // 
+            this.DonationMoneyLbl.AutoSize = true;
+            this.DonationMoneyLbl.Font = new System.Drawing.Font("Rockwell Extra Bold", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.DonationMoneyLbl.Location = new System.Drawing.Point(1579, 713);
+            this.DonationMoneyLbl.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.DonationMoneyLbl.Name = "DonationMoneyLbl";
+            this.DonationMoneyLbl.Size = new System.Drawing.Size(57, 56);
+            this.DonationMoneyLbl.TabIndex = 36;
+            this.DonationMoneyLbl.Text = "0";
+            // 
+            // TicketMoneyLbl
+            // 
+            this.TicketMoneyLbl.AutoSize = true;
+            this.TicketMoneyLbl.Font = new System.Drawing.Font("Rockwell Extra Bold", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TicketMoneyLbl.Location = new System.Drawing.Point(1579, 800);
+            this.TicketMoneyLbl.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.TicketMoneyLbl.Name = "TicketMoneyLbl";
+            this.TicketMoneyLbl.Size = new System.Drawing.Size(57, 56);
+            this.TicketMoneyLbl.TabIndex = 38;
+            this.TicketMoneyLbl.Text = "0";
+            // 
+            // TicketLbl
+            // 
+            this.TicketLbl.AutoSize = true;
+            this.TicketLbl.Font = new System.Drawing.Font("Rockwell Extra Bold", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TicketLbl.Location = new System.Drawing.Point(1085, 800);
+            this.TicketLbl.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.TicketLbl.Name = "TicketLbl";
+            this.TicketLbl.Size = new System.Drawing.Size(365, 56);
+            this.TicketLbl.TabIndex = 37;
+            this.TicketLbl.Text = "Ticket Sales";
+            // 
+            // GovernmentMoneyLbl
+            // 
+            this.GovernmentMoneyLbl.AutoSize = true;
+            this.GovernmentMoneyLbl.Font = new System.Drawing.Font("Rockwell Extra Bold", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.GovernmentMoneyLbl.Location = new System.Drawing.Point(1579, 891);
+            this.GovernmentMoneyLbl.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.GovernmentMoneyLbl.Name = "GovernmentMoneyLbl";
+            this.GovernmentMoneyLbl.Size = new System.Drawing.Size(57, 56);
+            this.GovernmentMoneyLbl.TabIndex = 40;
+            this.GovernmentMoneyLbl.Text = "0";
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Font = new System.Drawing.Font("Rockwell Extra Bold", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.Location = new System.Drawing.Point(1085, 891);
+            this.label9.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(425, 56);
+            this.label9.TabIndex = 39;
+            this.label9.Text = "Government $";
+            // 
             // Round1Summary
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DeepSkyBlue;
-            this.ClientSize = new System.Drawing.Size(984, 749);
+            this.ClientSize = new System.Drawing.Size(1968, 1440);
+            this.Controls.Add(this.GovernmentMoneyLbl);
+            this.Controls.Add(this.label9);
+            this.Controls.Add(this.TicketMoneyLbl);
+            this.Controls.Add(this.TicketLbl);
+            this.Controls.Add(this.DonationMoneyLbl);
+            this.Controls.Add(this.DonationsLbl);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.MoneyLbl);
+            this.Controls.Add(this.label3);
             this.Controls.Add(this.ContinueBtn);
-            this.Controls.Add(this.TotalFishLbl);
+            this.Controls.Add(this.TotalMoneysLbl);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.FishTakenLbl);
-            this.Controls.Add(this.PiscFishLbl);
-            this.Controls.Add(this.AquaFishLbl);
-            this.Controls.Add(this.CapFishLbl);
-            this.Controls.Add(this.SagFishLbl);
-            this.Controls.Add(this.ScorFishLbl);
-            this.Controls.Add(this.LibFishLbl);
-            this.Controls.Add(this.VirFishLbl);
-            this.Controls.Add(this.LeoFishLbl);
-            this.Controls.Add(this.CanFishLbl);
-            this.Controls.Add(this.GemFishLbl);
-            this.Controls.Add(this.TaurusFishLbl);
-            this.Controls.Add(this.AriesFishLbl);
-            this.Controls.Add(this.PiscesLbl);
-            this.Controls.Add(this.AquaLbl);
-            this.Controls.Add(this.CapLbl);
-            this.Controls.Add(this.SagLbl);
-            this.Controls.Add(this.ScorpioLbl);
-            this.Controls.Add(this.LibraLbl);
-            this.Controls.Add(this.VirgoLbl);
-            this.Controls.Add(this.LeoLbl);
-            this.Controls.Add(this.CancerLbl);
-            this.Controls.Add(this.GeminiLbl);
-            this.Controls.Add(this.TaurusLbl);
-            this.Controls.Add(this.AriesLbl);
+            this.Controls.Add(this.EmployeeMoneyLbl);
+            this.Controls.Add(this.GiftMoneyLbl);
+            this.Controls.Add(this.KestrelMoneyLbl);
+            this.Controls.Add(this.CowMoneyLbl);
+            this.Controls.Add(this.DeerMoneyLbl);
+            this.Controls.Add(this.SalamanderMoneyLbl);
+            this.Controls.Add(this.CatMoneyLbl);
+            this.Controls.Add(this.EmployeeLbl);
+            this.Controls.Add(this.GiftLbl);
+            this.Controls.Add(this.KestrelLbl);
+            this.Controls.Add(this.CowLbl);
+            this.Controls.Add(this.DeerLbl);
+            this.Controls.Add(this.SalamanderLbl);
+            this.Controls.Add(this.CatLbl);
             this.Controls.Add(this.HeaderLbl);
             this.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.Margin = new System.Windows.Forms.Padding(6);
             this.Name = "Round1Summary";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Pisces Game";
+            this.Text = "  ";
+            this.Load += new System.EventHandler(this.Round1Summary_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -398,33 +417,32 @@
         #endregion
 
         private System.Windows.Forms.Label HeaderLbl;
-        private System.Windows.Forms.Label AriesLbl;
-        private System.Windows.Forms.Label TaurusLbl;
-        private System.Windows.Forms.Label GeminiLbl;
-        private System.Windows.Forms.Label CancerLbl;
-        private System.Windows.Forms.Label LeoLbl;
-        private System.Windows.Forms.Label VirgoLbl;
-        private System.Windows.Forms.Label LibraLbl;
-        private System.Windows.Forms.Label ScorpioLbl;
-        private System.Windows.Forms.Label SagLbl;
-        private System.Windows.Forms.Label CapLbl;
-        private System.Windows.Forms.Label AquaLbl;
-        private System.Windows.Forms.Label PiscesLbl;
-        private System.Windows.Forms.Label AriesFishLbl;
-        private System.Windows.Forms.Label TaurusFishLbl;
-        private System.Windows.Forms.Label GemFishLbl;
-        private System.Windows.Forms.Label CanFishLbl;
-        private System.Windows.Forms.Label LeoFishLbl;
-        private System.Windows.Forms.Label VirFishLbl;
-        private System.Windows.Forms.Label LibFishLbl;
-        private System.Windows.Forms.Label ScorFishLbl;
-        private System.Windows.Forms.Label SagFishLbl;
-        private System.Windows.Forms.Label CapFishLbl;
-        private System.Windows.Forms.Label AquaFishLbl;
-        private System.Windows.Forms.Label PiscFishLbl;
+        private System.Windows.Forms.Label CatLbl;
+        private System.Windows.Forms.Label SalamanderLbl;
+        private System.Windows.Forms.Label DeerLbl;
+        private System.Windows.Forms.Label CowLbl;
+        private System.Windows.Forms.Label KestrelLbl;
+        private System.Windows.Forms.Label GiftLbl;
+        private System.Windows.Forms.Label EmployeeLbl;
+        private System.Windows.Forms.Label CatMoneyLbl;
+        private System.Windows.Forms.Label SalamanderMoneyLbl;
+        private System.Windows.Forms.Label DeerMoneyLbl;
+        private System.Windows.Forms.Label CowMoneyLbl;
+        private System.Windows.Forms.Label KestrelMoneyLbl;
+        private System.Windows.Forms.Label GiftMoneyLbl;
+        private System.Windows.Forms.Label EmployeeMoneyLbl;
         private System.Windows.Forms.Label FishTakenLbl;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label TotalFishLbl;
+        private System.Windows.Forms.Label TotalMoneysLbl;
         private System.Windows.Forms.Button ContinueBtn;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label MoneyLbl;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label DonationsLbl;
+        private System.Windows.Forms.Label DonationMoneyLbl;
+        private System.Windows.Forms.Label TicketMoneyLbl;
+        private System.Windows.Forms.Label TicketLbl;
+        private System.Windows.Forms.Label GovernmentMoneyLbl;
+        private System.Windows.Forms.Label label9;
     }
 }

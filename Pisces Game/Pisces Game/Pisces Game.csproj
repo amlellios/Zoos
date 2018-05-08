@@ -63,78 +63,6 @@
     <Compile Include="Round1Summary.Designer.cs">
       <DependentUpon>Round1Summary.cs</DependentUpon>
     </Compile>
-    <Compile Include="Round2.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Round2.Designer.cs">
-      <DependentUpon>Round2.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Round2Summary.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Round2Summary.Designer.cs">
-      <DependentUpon>Round2Summary.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Round3.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Round3.Designer.cs">
-      <DependentUpon>Round3.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Round3Summary.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Round3Summary.Designer.cs">
-      <DependentUpon>Round3Summary.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Round4.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Round4.Designer.cs">
-      <DependentUpon>Round4.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Round4Summary.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Round4Summary.Designer.cs">
-      <DependentUpon>Round4Summary.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Round5.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Round5.Designer.cs">
-      <DependentUpon>Round5.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Round5Summary.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Round5Summary.Designer.cs">
-      <DependentUpon>Round5Summary.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Round6.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Round6.Designer.cs">
-      <DependentUpon>Round6.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Round6Summary.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Round6Summary.Designer.cs">
-      <DependentUpon>Round6Summary.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Round7.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Round7.Designer.cs">
-      <DependentUpon>Round7.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Round7Summary.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Round7Summary.Designer.cs">
-      <DependentUpon>Round7Summary.cs</DependentUpon>
-    </Compile>
     <Compile Include="StartMenu.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -148,36 +76,6 @@
     </Compile>
     <Compile Include="Sustainability1.Designer.cs">
       <DependentUpon>Sustainability1.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Sustainability2.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Sustainability2.Designer.cs">
-      <DependentUpon>Sustainability2.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Sustainability3.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Sustainability3.Designer.cs">
-      <DependentUpon>Sustainability3.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Sustainability4.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Sustainability4.Designer.cs">
-      <DependentUpon>Sustainability4.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Sustainability5.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Sustainability5.Designer.cs">
-      <DependentUpon>Sustainability5.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Sustainability6.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Sustainability6.Designer.cs">
-      <DependentUpon>Sustainability6.cs</DependentUpon>
     </Compile>
     <Compile Include="Thanks4Playing.cs">
       <SubType>Form</SubType>
@@ -194,42 +92,6 @@
     <EmbeddedResource Include="Round1Summary.resx">
       <DependentUpon>Round1Summary.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Round2.resx">
-      <DependentUpon>Round2.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Round2Summary.resx">
-      <DependentUpon>Round2Summary.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Round3.resx">
-      <DependentUpon>Round3.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Round3Summary.resx">
-      <DependentUpon>Round3Summary.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Round4.resx">
-      <DependentUpon>Round4.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Round4Summary.resx">
-      <DependentUpon>Round4Summary.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Round5.resx">
-      <DependentUpon>Round5.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Round5Summary.resx">
-      <DependentUpon>Round5Summary.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Round6.resx">
-      <DependentUpon>Round6.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Round6Summary.resx">
-      <DependentUpon>Round6Summary.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Round7.resx">
-      <DependentUpon>Round7.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Round7Summary.resx">
-      <DependentUpon>Round7Summary.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="StartMenu.resx">
       <DependentUpon>StartMenu.cs</DependentUpon>
     </EmbeddedResource>
@@ -244,21 +106,6 @@
     </Compile>
     <EmbeddedResource Include="Sustainability1.resx">
       <DependentUpon>Sustainability1.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Sustainability2.resx">
-      <DependentUpon>Sustainability2.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Sustainability3.resx">
-      <DependentUpon>Sustainability3.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Sustainability4.resx">
-      <DependentUpon>Sustainability4.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Sustainability5.resx">
-      <DependentUpon>Sustainability5.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Sustainability6.resx">
-      <DependentUpon>Sustainability6.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Thanks4Playing.resx">
       <DependentUpon>Thanks4Playing.cs</DependentUpon>
