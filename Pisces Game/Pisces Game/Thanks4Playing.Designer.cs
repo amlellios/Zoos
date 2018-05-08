@@ -37,7 +37,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Rockwell", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(-1, 289);
+            this.label1.Location = new System.Drawing.Point(187, 353);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(1190, 142);
             this.label1.TabIndex = 0;
@@ -46,7 +46,7 @@
             // Exit
             // 
             this.Exit.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Exit.Location = new System.Drawing.Point(380, 487);
+            this.Exit.Location = new System.Drawing.Point(568, 551);
             this.Exit.Name = "Exit";
             this.Exit.Size = new System.Drawing.Size(364, 169);
             this.Exit.TabIndex = 1;
@@ -57,18 +57,19 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(337, 30);
+            this.label2.Location = new System.Drawing.Point(497, 209);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(535, 275);
+            this.label2.Size = new System.Drawing.Size(520, 110);
             this.label2.TabIndex = 2;
-            this.label2.Text = "A Game By;\r\n\r\nAthena Roberts-Forouzi\r\nWill Rossi\r\nAlexis Lellios";
+            this.label2.Text = "Game by; Alexis Lellios\r\nand David Beaudoin ";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // Thanks4Playing
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DeepSkyBlue;
-            this.ClientSize = new System.Drawing.Size(1162, 797);
+            this.ClientSize = new System.Drawing.Size(1547, 1058);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.Exit);
             this.Controls.Add(this.label1);

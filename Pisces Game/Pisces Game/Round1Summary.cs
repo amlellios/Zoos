@@ -75,7 +75,7 @@ namespace Pisces_Game
             MoneyHas += (Convert.ToInt32(0.3) * MoneyHas);
             TotalMoneysLbl.Text = Convert.ToString(MoneyHas);
         }
-
+        
         private void ContinueBtn_Click(object sender, EventArgs e)
         {
             Round2 round2 = new Round2();

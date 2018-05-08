@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace Pisces_Game
 {
-    public partial class Thanks4Playing : Form
+    public partial class SupriseRound2 : Form
     {
-        public Thanks4Playing()
+        public SupriseRound2()
         {
             InitializeComponent();
-        }
-
-        private void label2_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }
