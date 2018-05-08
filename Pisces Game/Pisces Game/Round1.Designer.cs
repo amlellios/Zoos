@@ -191,6 +191,7 @@
             this.KestrelBox.Size = new System.Drawing.Size(144, 31);
             this.KestrelBox.TabIndex = 16;
             this.KestrelBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.KestrelBox.ValueChanged += new System.EventHandler(this.KestrelBox_ValueChanged);
             // 
             // label6
             // 

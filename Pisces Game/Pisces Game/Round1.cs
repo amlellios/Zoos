@@ -14,6 +14,16 @@ namespace Pisces_Game
     {
                 
         public static int MoneySpent;
+        public static int CatMoney;
+        public static int CowMoney;
+        public static int SalamanderMoney;
+        public static int KestrelMoney;
+
+        public static int DeerMoney;
+        public static int GiftMoney;
+        
+        public static int EmployeeMoney;
+        
 
         public Round1()
         {
@@ -22,40 +32,12 @@ namespace Pisces_Game
         
         }
 
-        //private void eatFishBtn_Click(object sender, EventArgs e)
-        //{
-        //    if (eatFishBox.Value < 6)
-        //    {
-        //        eatFishLbl.Visible = true;
-        //        eatFishLbl.Text = "";
-        //    }
-        //    else if (eatFishBox.Value > 6)
-        //    {
-        //        eatFishLbl.Visible = true;
-        //        eatFishLbl.Text = "You ate more than enough to survive";
-        //        eatFishBtn.Visible = false;
-                
-        //    }
-        //    else if (eatFishBox.Value > 12)
-        //    {
-        //        eatFishLbl.Visible = true;
-        //        eatFishLbl.Text = "That's way too many fish...";
-        //    }
-        //    else
-        //    {
-        //        eatFishLbl.Visible = true;
-        //        eatFishLbl.Text = "You ate enough to survive.";
-        //        eatFishBtn.Visible = false;
-                
-        //    }
-        //    playerFishTaken = Convert.ToInt32(eatFishBox.Value);
-        //}
 
         private void round1EndBtn_Click(object sender, EventArgs e)
         {
-            
-            Round2 round2 = new Round2();
-            round2.Visible = true;
+
+            Round1Summary roundS1 = new Round1Summary();
+            roundS1.Visible = true;
             this.Hide();
         }
 
@@ -81,41 +63,46 @@ namespace Pisces_Game
 
         private void button3_Click(object sender, EventArgs e)
         {
-            MoneySpent = Convert.ToInt32(CatBox.Value);
+            CatMoney = Convert.ToInt32(CatBox.Value);
         }
 
         private void CowButton_Click(object sender, EventArgs e)
         {
       
-            MoneySpent = Convert.ToInt32(CatBox.Value);
+            CowMoney = Convert.ToInt32(CowBox.Value);
         }
 
         private void DeerButton_Click(object sender, EventArgs e)
         {
-            MoneySpent = Convert.ToInt32(CatBox.Value);
+            DeerMoney = Convert.ToInt32(DeerBox.Value);
         }
 
         private void KestrelButton_Click(object sender, EventArgs e)
         {
-            MoneySpent = Convert.ToInt32(CatBox.Value);
+            KestrelMoney = Convert.ToInt32(KestrelBox.Value);
         }
 
         private void SalamanderButton_Click(object sender, EventArgs e)
         {
-            MoneySpent = Convert.ToInt32(CatBox.Value);
+            SalamanderMoney = Convert.ToInt32(SalamanderBox.Value);
         }
 
         private void EmployeesButton_Click(object sender, EventArgs e)
         {
-            MoneySpent = Convert.ToInt32(CatBox.Value);
+            EmployeeMoney = Convert.ToInt32(EmployeeBox.Value);
         }
 
         private void GiftShopButton_Click(object sender, EventArgs e)
         {
-            MoneySpent = Convert.ToInt32(CatBox.Value);
+            GiftMoney = Convert.ToInt32(GiftShopBox.Value);
         }
 
         private void Round1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void KestrelBox_ValueChanged(object sender, EventArgs e)
         {
 
         }
