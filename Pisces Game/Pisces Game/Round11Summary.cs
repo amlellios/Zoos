@@ -82,7 +82,7 @@ namespace Pisces_Game
 
         private void ContinueBtn_Click(object sender, EventArgs e)
         {
-            Round11Surprise round3 = new Round11Surprise();
+            Round12 round3 = new Round12();
             round3.Visible = true;
             this.Hide();
         }

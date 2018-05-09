@@ -22,7 +22,7 @@ namespace Pisces_Game
 
         public static int DeerMoney;
         public static int GiftMoney;
-        public static int DonationMoney = 100;
+        public static int DonationMoney = 1000;
         public static int GovernmentMoney = 2000;
         public static int TicketSales = 200;
 
