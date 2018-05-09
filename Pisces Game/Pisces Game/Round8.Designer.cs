@@ -155,7 +155,7 @@
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(114, 47);
             this.label13.TabIndex = 107;
-            this.label13.Text = "$ 600";
+            this.label13.Text = "$ 700";
             // 
             // button1
             // 
@@ -167,6 +167,7 @@
             this.button1.TabIndex = 83;
             this.button1.Text = "End Round";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // label12
             // 
@@ -177,7 +178,7 @@
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(114, 47);
             this.label12.TabIndex = 106;
-            this.label12.Text = "$ 600";
+            this.label12.Text = "$ 900";
             // 
             // label3
             // 
@@ -197,9 +198,9 @@
             this.label11.Location = new System.Drawing.Point(607, 469);
             this.label11.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(114, 47);
+            this.label11.Size = new System.Drawing.Size(104, 47);
             this.label11.TabIndex = 105;
-            this.label11.Text = "$ 600";
+            this.label11.Text = "$900";
             // 
             // Deerbox
             // 
@@ -469,7 +470,7 @@
             this.Controls.Add(this.label8);
             this.Controls.Add(this.GiftButton2);
             this.Name = "Round8";
-            this.Text = "Round8";
+            this.Text = "1";
             ((System.ComponentModel.ISupportInitialize)(this.fileSystemWatcher1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Catbox)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Deerbox)).EndInit();

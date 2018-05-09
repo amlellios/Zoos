@@ -502,6 +502,7 @@
             this.Controls.Add(this.GiftButton2);
             this.Name = "Round12";
             this.Text = "Round12";
+            this.Load += new System.EventHandler(this.Round12_Load);
             ((System.ComponentModel.ISupportInitialize)(this.fileSystemWatcher1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Catbox)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Deerbox)).EndInit();

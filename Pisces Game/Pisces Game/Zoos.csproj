@@ -245,17 +245,17 @@
     <Compile Include="Round2Surprise.Designer.cs">
       <DependentUpon>Round2Surprise.cs</DependentUpon>
     </Compile>
-    <Compile Include="SurpriseRound4.cs">
+    <Compile Include="Round4Surprise.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="SurpriseRound4.Designer.cs">
-      <DependentUpon>SurpriseRound4.cs</DependentUpon>
+    <Compile Include="Round4Surprise.Designer.cs">
+      <DependentUpon>Round4Surprise.cs</DependentUpon>
     </Compile>
-    <Compile Include="SurpriseRound5.cs">
+    <Compile Include="Round5Surprise.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="SurpriseRound5.Designer.cs">
-      <DependentUpon>SurpriseRound5.cs</DependentUpon>
+    <Compile Include="Round5Surprise.Designer.cs">
+      <DependentUpon>Round5Surprise.cs</DependentUpon>
     </Compile>
     <Compile Include="Sustainability1.cs">
       <SubType>Form</SubType>
@@ -377,11 +377,11 @@
     <EmbeddedResource Include="Round2Surprise.resx">
       <DependentUpon>Round2Surprise.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="SurpriseRound4.resx">
-      <DependentUpon>SurpriseRound4.cs</DependentUpon>
+    <EmbeddedResource Include="Round4Surprise.resx">
+      <DependentUpon>Round4Surprise.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="SurpriseRound5.resx">
-      <DependentUpon>SurpriseRound5.cs</DependentUpon>
+    <EmbeddedResource Include="Round5Surprise.resx">
+      <DependentUpon>Round5Surprise.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Sustainability1.resx">
       <DependentUpon>Sustainability1.cs</DependentUpon>

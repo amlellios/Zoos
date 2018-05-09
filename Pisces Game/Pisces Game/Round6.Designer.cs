@@ -31,7 +31,6 @@
             this.fileSystemWatcher1 = new System.IO.FileSystemWatcher();
             this.label16 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.label15 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
             this.Catbox = new System.Windows.Forms.NumericUpDown();
@@ -51,12 +50,10 @@
             this.Cowbox2 = new System.Windows.Forms.NumericUpDown();
             this.DeerButton2 = new System.Windows.Forms.Button();
             this.label6 = new System.Windows.Forms.Label();
-            this.EmployeeButton2 = new System.Windows.Forms.Button();
             this.Salamanderbox = new System.Windows.Forms.NumericUpDown();
             this.KestrelButton2 = new System.Windows.Forms.Button();
             this.label7 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
-            this.Employeebox = new System.Windows.Forms.NumericUpDown();
             this.Giftbox = new System.Windows.Forms.NumericUpDown();
             this.label8 = new System.Windows.Forms.Label();
             this.GiftButton2 = new System.Windows.Forms.Button();
@@ -66,7 +63,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.Kestrelbox)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Cowbox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Salamanderbox)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Employeebox)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Giftbox)).BeginInit();
             this.SuspendLayout();
             // 
@@ -99,17 +95,6 @@
             this.label1.Text = "ROUND 6";
             this.label1.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             this.label1.Click += new System.EventHandler(this.label1_Click);
-            // 
-            // label15
-            // 
-            this.label15.AutoSize = true;
-            this.label15.Font = new System.Drawing.Font("Rockwell", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label15.Location = new System.Drawing.Point(1023, 776);
-            this.label15.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(114, 47);
-            this.label15.TabIndex = 109;
-            this.label15.Text = "$ 600";
             // 
             // label2
             // 
@@ -156,7 +141,7 @@
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(114, 47);
             this.label13.TabIndex = 107;
-            this.label13.Text = "$ 600";
+            this.label13.Text = "$ 700";
             // 
             // button1
             // 
@@ -168,6 +153,7 @@
             this.button1.TabIndex = 83;
             this.button1.Text = "End Round";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click_1);
             // 
             // label12
             // 
@@ -176,9 +162,9 @@
             this.label12.Location = new System.Drawing.Point(1140, 459);
             this.label12.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(114, 47);
+            this.label12.Size = new System.Drawing.Size(104, 47);
             this.label12.TabIndex = 106;
-            this.label12.Text = "$ 600";
+            this.label12.Text = "$900";
             // 
             // label3
             // 
@@ -198,9 +184,9 @@
             this.label11.Location = new System.Drawing.Point(621, 459);
             this.label11.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(114, 47);
+            this.label11.Size = new System.Drawing.Size(104, 47);
             this.label11.TabIndex = 105;
-            this.label11.Text = "$ 600";
+            this.label11.Text = "$900";
             // 
             // Deerbox
             // 
@@ -328,16 +314,6 @@
             this.label6.TabIndex = 90;
             this.label6.Text = "Black Angus Cow";
             // 
-            // EmployeeButton2
-            // 
-            this.EmployeeButton2.Location = new System.Drawing.Point(1077, 722);
-            this.EmployeeButton2.Margin = new System.Windows.Forms.Padding(6);
-            this.EmployeeButton2.Name = "EmployeeButton2";
-            this.EmployeeButton2.Size = new System.Drawing.Size(200, 38);
-            this.EmployeeButton2.TabIndex = 99;
-            this.EmployeeButton2.Text = "Spend";
-            this.EmployeeButton2.UseVisualStyleBackColor = true;
-            // 
             // Salamanderbox
             // 
             this.Salamanderbox.Location = new System.Drawing.Point(387, 715);
@@ -384,20 +360,6 @@
             this.label9.TabIndex = 97;
             this.label9.Text = "Gift Shop";
             // 
-            // Employeebox
-            // 
-            this.Employeebox.Location = new System.Drawing.Point(909, 719);
-            this.Employeebox.Margin = new System.Windows.Forms.Padding(6);
-            this.Employeebox.Maximum = new decimal(new int[] {
-            12,
-            0,
-            0,
-            0});
-            this.Employeebox.Name = "Employeebox";
-            this.Employeebox.Size = new System.Drawing.Size(144, 31);
-            this.Employeebox.TabIndex = 93;
-            this.Employeebox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
             // Giftbox
             // 
             this.Giftbox.Location = new System.Drawing.Point(1374, 719);
@@ -440,7 +402,6 @@
             this.ClientSize = new System.Drawing.Size(1953, 1051);
             this.Controls.Add(this.label16);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.label15);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label14);
             this.Controls.Add(this.Catbox);
@@ -460,12 +421,10 @@
             this.Controls.Add(this.Cowbox2);
             this.Controls.Add(this.DeerButton2);
             this.Controls.Add(this.label6);
-            this.Controls.Add(this.EmployeeButton2);
             this.Controls.Add(this.Salamanderbox);
             this.Controls.Add(this.KestrelButton2);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label9);
-            this.Controls.Add(this.Employeebox);
             this.Controls.Add(this.Giftbox);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.GiftButton2);
@@ -477,7 +436,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.Kestrelbox)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Cowbox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Salamanderbox)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Employeebox)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Giftbox)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -489,7 +447,6 @@
         private System.IO.FileSystemWatcher fileSystemWatcher1;
         private System.Windows.Forms.Label label16;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label15;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.NumericUpDown Catbox;
@@ -509,12 +466,10 @@
         private System.Windows.Forms.NumericUpDown Cowbox2;
         private System.Windows.Forms.Button DeerButton2;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Button EmployeeButton2;
         private System.Windows.Forms.NumericUpDown Salamanderbox;
         private System.Windows.Forms.Button KestrelButton2;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.NumericUpDown Employeebox;
         private System.Windows.Forms.NumericUpDown Giftbox;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Button GiftButton2;

@@ -29,10 +29,62 @@ namespace Pisces_Game
         {
             InitializeComponent();
         }
+        
 
+
+
+
+
+        
+        private void SalamanderButton2_Click(object sender, EventArgs e)
+        {
+            SalamanderMoney = Convert.ToInt32(Salamanderbox.Value);
+        }
+
+        private void CatButton2_Click(object sender, EventArgs e)
+        {
+            CatMoney = Convert.ToInt32(Catbox.Value);
+        }
+
+        private void DeerButton2_Click(object sender, EventArgs e)
+        {
+            DeerMoney = Convert.ToInt32(Deerbox.Value);
+        }
+
+        private void KestrelButton2_Click(object sender, EventArgs e)
+        {
+            KestrelMoney = Convert.ToInt32(Kestrelbox.Value);
+        }
+
+        private void GiftButton2_Click(object sender, EventArgs e)
+        {
+            GiftMoney = Convert.ToInt32(Giftbox.Value);
+        }
+
+        private void EmployeeButton2_Click(object sender, EventArgs e)
+        {
+            EmployeeMoney = Convert.ToInt32(Employeebox.Value);
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Round4Summary roundS6 = new Round4Summary();
+            roundS6.Visible = true;
+            this.Hide();
+        }
+
+        private void CowButton2_Click(object sender, EventArgs e)
+        {
+            CowMoney = Convert.ToInt32(Cowbox2.Value);
+        }
         private void label2_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+            
         }
     }
 }

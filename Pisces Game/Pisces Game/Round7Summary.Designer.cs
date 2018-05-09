@@ -399,13 +399,14 @@
             // 
             // ContinueBtn
             // 
-            this.ContinueBtn.Location = new System.Drawing.Point(896, 1152);
+            this.ContinueBtn.Location = new System.Drawing.Point(842, 1108);
             this.ContinueBtn.Margin = new System.Windows.Forms.Padding(6);
             this.ContinueBtn.Name = "ContinueBtn";
             this.ContinueBtn.Size = new System.Drawing.Size(310, 115);
             this.ContinueBtn.TabIndex = 175;
             this.ContinueBtn.Text = "Continue";
             this.ContinueBtn.UseVisualStyleBackColor = true;
+            this.ContinueBtn.Click += new System.EventHandler(this.ContinueBtn_Click);
             // 
             // TotalMoneysLbl
             // 
@@ -601,16 +602,16 @@
             this.HeaderLbl.Location = new System.Drawing.Point(514, -7);
             this.HeaderLbl.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.HeaderLbl.Name = "HeaderLbl";
-            this.HeaderLbl.Size = new System.Drawing.Size(1009, 120);
+            this.HeaderLbl.Size = new System.Drawing.Size(1017, 120);
             this.HeaderLbl.TabIndex = 157;
-            this.HeaderLbl.Text = "ROUND 3 SUMMARY";
+            this.HeaderLbl.Text = "ROUND 7 SUMMARY";
             this.HeaderLbl.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // Round7Summary
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1964, 1075);
+            this.ClientSize = new System.Drawing.Size(1908, 1310);
             this.Controls.Add(this.label23);
             this.Controls.Add(this.label24);
             this.Controls.Add(this.label21);

@@ -12,9 +12,71 @@ namespace Pisces_Game
 {
     public partial class Round8 : Form
     {
+
+        public static int MoneySpent;
+        public static int CatMoney;
+        public static int CowMoney;
+        public static int SalamanderMoney;
+        public static int KestrelMoney;
+
+        public static int DeerMoney;
+        public static int GiftMoney;
+
+        public static int EmployeeMoney;
+
+
         public Round8()
         {
             InitializeComponent();
         }
+
+
+
+        private void SalamanderButton2_Click(object sender, EventArgs e)
+        {
+            SalamanderMoney = Convert.ToInt32(Salamanderbox.Value);
+        }
+
+        private void CatButton2_Click(object sender, EventArgs e)
+        {
+            CatMoney = Convert.ToInt32(Catbox.Value);
+        }
+
+        private void DeerButton2_Click(object sender, EventArgs e)
+        {
+            DeerMoney = Convert.ToInt32(Deerbox.Value);
+        }
+
+        private void KestrelButton2_Click(object sender, EventArgs e)
+        {
+            KestrelMoney = Convert.ToInt32(Kestrelbox.Value);
+        }
+
+        private void GiftButton2_Click(object sender, EventArgs e)
+        {
+            GiftMoney = Convert.ToInt32(Giftbox.Value);
+        }
+
+        private void EmployeeButton2_Click(object sender, EventArgs e)
+        {
+            EmployeeMoney = Convert.ToInt32(Employeebox.Value);
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Round8Summary roundS6 = new Round8Summary();
+            roundS6.Visible = true;
+            this.Hide();
+        }
+
+        private void CowButton2_Click(object sender, EventArgs e)
+        {
+            CowMoney = Convert.ToInt32(Cowbox2.Value);
+        }
+
+        //private void button1_Click(object sender, EventArgs e)
+        //{
+
+        //}
     }
 }

@@ -406,6 +406,7 @@
             this.ContinueBtn.TabIndex = 175;
             this.ContinueBtn.Text = "Continue";
             this.ContinueBtn.UseVisualStyleBackColor = true;
+            this.ContinueBtn.Click += new System.EventHandler(this.ContinueBtn_Click);
             // 
             // TotalMoneysLbl
             // 

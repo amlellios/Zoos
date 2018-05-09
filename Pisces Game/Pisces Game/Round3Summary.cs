@@ -79,6 +79,11 @@ namespace Pisces_Game
             round4.Visible = true;
             this.Hide();
         }
+
+        private void HeaderLbl_Click(object sender, EventArgs e)
+        {
+
+        }
         //private void ContinueBtn_Click(object sender, EventArgs e)
         //{
 

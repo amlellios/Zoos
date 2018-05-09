@@ -406,6 +406,7 @@
             this.ContinueBtn.TabIndex = 175;
             this.ContinueBtn.Text = "Continue";
             this.ContinueBtn.UseVisualStyleBackColor = true;
+            this.ContinueBtn.Click += new System.EventHandler(this.ContinueBtn_Click);
             // 
             // TotalMoneysLbl
             // 
@@ -610,7 +611,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1954, 1204);
+            this.ClientSize = new System.Drawing.Size(1954, 1311);
             this.Controls.Add(this.label23);
             this.Controls.Add(this.label24);
             this.Controls.Add(this.label21);

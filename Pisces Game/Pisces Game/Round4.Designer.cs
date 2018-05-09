@@ -150,7 +150,7 @@
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(114, 47);
             this.label13.TabIndex = 76;
-            this.label13.Text = "$ 600";
+            this.label13.Text = "$ 700";
             // 
             // button1
             // 
@@ -162,6 +162,7 @@
             this.button1.TabIndex = 52;
             this.button1.Text = "End Round";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click_1);
             // 
             // label12
             // 
@@ -172,7 +173,7 @@
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(114, 47);
             this.label12.TabIndex = 75;
-            this.label12.Text = "$ 600";
+            this.label12.Text = "$ 800";
             // 
             // label3
             // 
@@ -355,6 +356,7 @@
             this.KestrelButton2.TabIndex = 67;
             this.KestrelButton2.Text = "Spend";
             this.KestrelButton2.UseVisualStyleBackColor = true;
+            this.KestrelButton2.Click += new System.EventHandler(this.KestrelButton2_Click_1);
             // 
             // label7
             // 

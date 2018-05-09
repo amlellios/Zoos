@@ -16,5 +16,12 @@ namespace Pisces_Game
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Round9 round3 = new Round9();
+            round3.Visible = true;
+            this.Hide();
+        }
     }
 }

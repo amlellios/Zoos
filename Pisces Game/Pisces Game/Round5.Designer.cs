@@ -98,6 +98,7 @@
             this.label1.TabIndex = 80;
             this.label1.Text = "ROUND 5";
             this.label1.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // label15
             // 
@@ -156,7 +157,7 @@
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(114, 47);
             this.label13.TabIndex = 107;
-            this.label13.Text = "$ 600";
+            this.label13.Text = "$ 700";
             // 
             // button1
             // 
@@ -178,7 +179,7 @@
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(114, 47);
             this.label12.TabIndex = 106;
-            this.label12.Text = "$ 600";
+            this.label12.Text = "$ 900";
             // 
             // label3
             // 
@@ -200,7 +201,7 @@
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(114, 47);
             this.label11.TabIndex = 105;
-            this.label11.Text = "$ 600";
+            this.label11.Text = "$ 900";
             // 
             // Deerbox
             // 

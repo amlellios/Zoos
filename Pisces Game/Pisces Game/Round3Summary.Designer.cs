@@ -606,6 +606,7 @@
             this.HeaderLbl.TabIndex = 109;
             this.HeaderLbl.Text = "ROUND 3 SUMMARY";
             this.HeaderLbl.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.HeaderLbl.Click += new System.EventHandler(this.HeaderLbl_Click);
             // 
             // Round3Summary
             // 

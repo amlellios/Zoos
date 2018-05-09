@@ -1,6 +1,6 @@
 ﻿namespace Pisces_Game
 {
-    partial class Round6Surprise
+    partial class Round5Surprise
     {
         /// <summary>
         /// Required designer variable.
@@ -34,10 +34,10 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(745, 819);
+            this.button1.Location = new System.Drawing.Point(763, 811);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(505, 181);
-            this.button1.TabIndex = 7;
+            this.button1.TabIndex = 5;
             this.button1.Text = "Continue";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
@@ -45,22 +45,23 @@
             // textBox1
             // 
             this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 28.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(355, 85);
+            this.textBox1.Location = new System.Drawing.Point(373, 77);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(1215, 618);
-            this.textBox1.TabIndex = 6;
-            this.textBox1.Text = "You held the annual Golf Outing Fundraiser. Cosley Raised $7000 ";
+            this.textBox1.TabIndex = 4;
+            this.textBox1.Text = "You had a Scout Troup come and help out, you won\'t have to pay employee fees next" +
+    " month\r\n";
             // 
-            // Round6Surprise
+            // Round5Surprise
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1925, 1085);
+            this.ClientSize = new System.Drawing.Size(1960, 1069);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.textBox1);
-            this.Name = "Round6Surprise";
-            this.Text = "Round6Surprise";
+            this.Name = "Round5Surprise";
+            this.Text = "SurpriseRound5";
             this.ResumeLayout(false);
             this.PerformLayout();
 

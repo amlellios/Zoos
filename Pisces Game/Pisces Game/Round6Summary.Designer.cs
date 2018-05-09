@@ -399,13 +399,14 @@
             // 
             // ContinueBtn
             // 
-            this.ContinueBtn.Location = new System.Drawing.Point(859, 1159);
+            this.ContinueBtn.Location = new System.Drawing.Point(805, 1104);
             this.ContinueBtn.Margin = new System.Windows.Forms.Padding(6);
             this.ContinueBtn.Name = "ContinueBtn";
             this.ContinueBtn.Size = new System.Drawing.Size(310, 115);
             this.ContinueBtn.TabIndex = 175;
             this.ContinueBtn.Text = "Continue";
             this.ContinueBtn.UseVisualStyleBackColor = true;
+            this.ContinueBtn.Click += new System.EventHandler(this.ContinueBtn_Click);
             // 
             // TotalMoneysLbl
             // 
@@ -601,9 +602,9 @@
             this.HeaderLbl.Location = new System.Drawing.Point(477, 0);
             this.HeaderLbl.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.HeaderLbl.Name = "HeaderLbl";
-            this.HeaderLbl.Size = new System.Drawing.Size(1009, 120);
+            this.HeaderLbl.Size = new System.Drawing.Size(1013, 120);
             this.HeaderLbl.TabIndex = 157;
-            this.HeaderLbl.Text = "ROUND 3 SUMMARY";
+            this.HeaderLbl.Text = "ROUND 6 SUMMARY";
             this.HeaderLbl.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // Round6Summary

@@ -10,11 +10,18 @@ using System.Windows.Forms;
 
 namespace Pisces_Game
 {
-    public partial class SurpriseRound5 : Form
+    public partial class Round5Surprise : Form
     {
-        public SurpriseRound5()
+        public Round5Surprise()
         {
             InitializeComponent();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Round6 round3 = new Round6();
+            round3.Visible = true;
+            this.Hide();
         }
     }
 }

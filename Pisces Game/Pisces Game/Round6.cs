@@ -61,17 +61,17 @@ namespace Pisces_Game
             GiftMoney = Convert.ToInt32(Giftbox.Value);
         }
 
-        private void EmployeeButton2_Click(object sender, EventArgs e)
-        {
-            EmployeeMoney = Convert.ToInt32(Employeebox.Value);
-        }
+        //private void EmployeeButton2_Click(object sender, EventArgs e)
+        //{
+        //    EmployeeMoney = Convert.ToInt32(Employeebox.Value);
+        //}
 
-        private void button1_Click(object sender, EventArgs e)
-        {
-            Round6Summary roundS6 = new Round6Summary();
-            roundS6.Visible = true;
-            this.Hide();
-        }
+        //private void button1_Click(object sender, EventArgs e)
+        //{
+        //    Round6Summary roundS6 = new Round6Summary();
+        //    roundS6.Visible = true;
+        //    this.Hide();
+        //}
 
 
 
@@ -79,5 +79,13 @@ namespace Pisces_Game
         {
 
         }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            Round6Summary roundS6 = new Round6Summary();
+            roundS6.Visible = true;
+            this.Hide();
+        }
+    
     }
 }

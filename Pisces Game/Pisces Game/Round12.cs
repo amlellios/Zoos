@@ -12,10 +12,70 @@ namespace Pisces_Game
 {
     public partial class Round12 : Form
     {
+
+        public static int MoneySpent;
+        public static int CatMoney;
+        public static int CowMoney;
+        public static int SalamanderMoney;
+        public static int KestrelMoney;
+
+        public static int DeerMoney;
+        public static int GiftMoney;
+
+        public static int EmployeeMoney;
+
+
         public Round12()
         {
             InitializeComponent();
         }
+
+
+        private void SalamanderButton2_Click(object sender, EventArgs e)
+        {
+            SalamanderMoney = Convert.ToInt32(Salamanderbox.Value);
+        }
+
+        private void CatButton2_Click(object sender, EventArgs e)
+        {
+            CatMoney = Convert.ToInt32(Catbox.Value);
+        }
+
+        private void DeerButton2_Click(object sender, EventArgs e)
+        {
+            DeerMoney = Convert.ToInt32(Deerbox.Value);
+        }
+
+        private void KestrelButton2_Click(object sender, EventArgs e)
+        {
+            KestrelMoney = Convert.ToInt32(Kestrelbox.Value);
+        }
+
+        private void GiftButton2_Click(object sender, EventArgs e)
+        {
+            GiftMoney = Convert.ToInt32(Giftbox.Value);
+        }
+
+        private void EmployeeButton2_Click(object sender, EventArgs e)
+        {
+            EmployeeMoney = Convert.ToInt32(Employeebox.Value);
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Round12Summary roundS6 = new Round12Summary();
+            roundS6.Visible = true;
+            this.Hide();
+        }
+
+        private void CowButton2_Click(object sender, EventArgs e)
+        {
+            CowMoney = Convert.ToInt32(Cowbox2.Value);
+        }
+
+
+
+
 
         private void label1_Click(object sender, EventArgs e)
         {
@@ -57,10 +117,10 @@ namespace Pisces_Game
 
         }
 
-        private void button1_Click(object sender, EventArgs e)
-        {
+        //private void button1_Click(object sender, EventArgs e)
+        //{
 
-        }
+        //}
 
         private void label12_Click(object sender, EventArgs e)
         {
@@ -92,60 +152,60 @@ namespace Pisces_Game
 
         }
 
-        private void CowButton2_Click(object sender, EventArgs e)
-        {
+        //private void CowButton2_Click(object sender, EventArgs e)
+        //{
 
-        }
+        //}
 
         private void Kestrelbox_ValueChanged(object sender, EventArgs e)
         {
 
         }
 
-        private void CatButton2_Click(object sender, EventArgs e)
-        {
+        //private void CatButton2_Click(object sender, EventArgs e)
+        //{
 
-        }
+        //}
 
         private void label5_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void SalamanderButton2_Click(object sender, EventArgs e)
-        {
+        //private void SalamanderButton2_Click(object sender, EventArgs e)
+        //{
 
-        }
+        //}
 
         private void Cowbox2_ValueChanged(object sender, EventArgs e)
         {
 
         }
 
-        private void DeerButton2_Click(object sender, EventArgs e)
-        {
+        //private void DeerButton2_Click(object sender, EventArgs e)
+        //{
 
-        }
+        //}
 
         private void label6_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void EmployeeButton2_Click(object sender, EventArgs e)
-        {
+        //private void EmployeeButton2_Click(object sender, EventArgs e)
+        //{
 
-        }
+        //}
 
         private void Salamanderbox_ValueChanged(object sender, EventArgs e)
         {
 
         }
 
-        private void KestrelButton2_Click(object sender, EventArgs e)
-        {
+        //private void KestrelButton2_Click(object sender, EventArgs e)
+        //{
 
-        }
+        //}
 
         private void label7_Click(object sender, EventArgs e)
         {
@@ -172,9 +232,14 @@ namespace Pisces_Game
 
         }
 
-        private void GiftButton2_Click(object sender, EventArgs e)
+        private void Round12_Load(object sender, EventArgs e)
         {
 
         }
+
+        //private void GiftButton2_Click(object sender, EventArgs e)
+        //{
+
+        //}
     }
 }
