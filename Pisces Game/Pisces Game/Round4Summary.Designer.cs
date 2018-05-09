@@ -82,10 +82,9 @@
             // 
             this.label23.AutoSize = true;
             this.label23.Font = new System.Drawing.Font("Rockwell Extra Bold", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label23.Location = new System.Drawing.Point(1671, 879);
-            this.label23.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.label23.Location = new System.Drawing.Point(836, 457);
             this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(57, 56);
+            this.label23.Size = new System.Drawing.Size(29, 28);
             this.label23.TabIndex = 204;
             this.label23.Text = "0";
             // 
@@ -93,10 +92,9 @@
             // 
             this.label24.AutoSize = true;
             this.label24.Font = new System.Drawing.Font("Rockwell Extra Bold", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label24.Location = new System.Drawing.Point(1624, 879);
-            this.label24.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.label24.Location = new System.Drawing.Point(812, 457);
             this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(57, 56);
+            this.label24.Size = new System.Drawing.Size(29, 28);
             this.label24.TabIndex = 203;
             this.label24.Text = "0";
             // 
@@ -104,10 +102,9 @@
             // 
             this.label21.AutoSize = true;
             this.label21.Font = new System.Drawing.Font("Rockwell Extra Bold", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label21.Location = new System.Drawing.Point(1671, 788);
-            this.label21.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.label21.Location = new System.Drawing.Point(836, 410);
             this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(57, 56);
+            this.label21.Size = new System.Drawing.Size(29, 28);
             this.label21.TabIndex = 202;
             this.label21.Text = "0";
             // 
@@ -115,10 +112,9 @@
             // 
             this.label22.AutoSize = true;
             this.label22.Font = new System.Drawing.Font("Rockwell Extra Bold", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label22.Location = new System.Drawing.Point(1624, 788);
-            this.label22.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.label22.Location = new System.Drawing.Point(812, 410);
             this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(57, 56);
+            this.label22.Size = new System.Drawing.Size(29, 28);
             this.label22.TabIndex = 201;
             this.label22.Text = "0";
             // 
@@ -126,10 +122,9 @@
             // 
             this.label19.AutoSize = true;
             this.label19.Font = new System.Drawing.Font("Rockwell Extra Bold", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label19.Location = new System.Drawing.Point(1671, 701);
-            this.label19.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.label19.Location = new System.Drawing.Point(836, 365);
             this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(57, 56);
+            this.label19.Size = new System.Drawing.Size(29, 28);
             this.label19.TabIndex = 200;
             this.label19.Text = "0";
             // 
@@ -137,10 +132,9 @@
             // 
             this.label20.AutoSize = true;
             this.label20.Font = new System.Drawing.Font("Rockwell Extra Bold", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label20.Location = new System.Drawing.Point(1624, 701);
-            this.label20.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.label20.Location = new System.Drawing.Point(812, 365);
             this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(57, 56);
+            this.label20.Size = new System.Drawing.Size(29, 28);
             this.label20.TabIndex = 199;
             this.label20.Text = "0";
             // 
@@ -148,10 +142,9 @@
             // 
             this.label17.AutoSize = true;
             this.label17.Font = new System.Drawing.Font("Rockwell Extra Bold", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label17.Location = new System.Drawing.Point(1671, 453);
-            this.label17.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.label17.Location = new System.Drawing.Point(836, 236);
             this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(57, 56);
+            this.label17.Size = new System.Drawing.Size(29, 28);
             this.label17.TabIndex = 198;
             this.label17.Text = "0";
             // 
@@ -159,10 +152,9 @@
             // 
             this.label18.AutoSize = true;
             this.label18.Font = new System.Drawing.Font("Rockwell Extra Bold", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label18.Location = new System.Drawing.Point(1624, 453);
-            this.label18.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.label18.Location = new System.Drawing.Point(812, 236);
             this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(57, 56);
+            this.label18.Size = new System.Drawing.Size(29, 28);
             this.label18.TabIndex = 197;
             this.label18.Text = "0";
             // 
@@ -170,10 +162,9 @@
             // 
             this.label15.AutoSize = true;
             this.label15.Font = new System.Drawing.Font("Rockwell Extra Bold", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label15.Location = new System.Drawing.Point(1671, 371);
-            this.label15.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.label15.Location = new System.Drawing.Point(836, 193);
             this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(57, 56);
+            this.label15.Size = new System.Drawing.Size(29, 28);
             this.label15.TabIndex = 196;
             this.label15.Text = "0";
             // 
@@ -181,10 +172,9 @@
             // 
             this.label16.AutoSize = true;
             this.label16.Font = new System.Drawing.Font("Rockwell Extra Bold", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label16.Location = new System.Drawing.Point(1624, 371);
-            this.label16.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.label16.Location = new System.Drawing.Point(812, 193);
             this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(57, 56);
+            this.label16.Size = new System.Drawing.Size(29, 28);
             this.label16.TabIndex = 195;
             this.label16.Text = "0";
             // 
@@ -192,10 +182,9 @@
             // 
             this.label13.AutoSize = true;
             this.label13.Font = new System.Drawing.Font("Rockwell Extra Bold", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label13.Location = new System.Drawing.Point(698, 826);
-            this.label13.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.label13.Location = new System.Drawing.Point(349, 430);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(57, 56);
+            this.label13.Size = new System.Drawing.Size(29, 28);
             this.label13.TabIndex = 194;
             this.label13.Text = "0";
             // 
@@ -203,10 +192,9 @@
             // 
             this.label14.AutoSize = true;
             this.label14.Font = new System.Drawing.Font("Rockwell Extra Bold", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label14.Location = new System.Drawing.Point(651, 826);
-            this.label14.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.label14.Location = new System.Drawing.Point(326, 430);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(57, 56);
+            this.label14.Size = new System.Drawing.Size(29, 28);
             this.label14.TabIndex = 193;
             this.label14.Text = "0";
             // 
@@ -214,10 +202,9 @@
             // 
             this.label11.AutoSize = true;
             this.label11.Font = new System.Drawing.Font("Rockwell Extra Bold", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.Location = new System.Drawing.Point(698, 701);
-            this.label11.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.label11.Location = new System.Drawing.Point(349, 365);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(57, 56);
+            this.label11.Size = new System.Drawing.Size(29, 28);
             this.label11.TabIndex = 192;
             this.label11.Text = "0";
             // 
@@ -225,10 +212,9 @@
             // 
             this.label12.AutoSize = true;
             this.label12.Font = new System.Drawing.Font("Rockwell Extra Bold", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.Location = new System.Drawing.Point(651, 701);
-            this.label12.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.label12.Location = new System.Drawing.Point(326, 365);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(57, 56);
+            this.label12.Size = new System.Drawing.Size(29, 28);
             this.label12.TabIndex = 191;
             this.label12.Text = "0";
             // 
@@ -236,10 +222,9 @@
             // 
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Rockwell Extra Bold", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(698, 578);
-            this.label8.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.label8.Location = new System.Drawing.Point(349, 301);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(57, 56);
+            this.label8.Size = new System.Drawing.Size(29, 28);
             this.label8.TabIndex = 190;
             this.label8.Text = "0";
             // 
@@ -247,10 +232,9 @@
             // 
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Rockwell Extra Bold", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(651, 578);
-            this.label10.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.label10.Location = new System.Drawing.Point(326, 301);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(57, 56);
+            this.label10.Size = new System.Drawing.Size(29, 28);
             this.label10.TabIndex = 189;
             this.label10.Text = "0";
             // 
@@ -258,10 +242,9 @@
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Rockwell Extra Bold", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(698, 462);
-            this.label6.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.label6.Location = new System.Drawing.Point(349, 240);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(57, 56);
+            this.label6.Size = new System.Drawing.Size(29, 28);
             this.label6.TabIndex = 188;
             this.label6.Text = "0";
             // 
@@ -269,10 +252,9 @@
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Rockwell Extra Bold", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(651, 462);
-            this.label7.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.label7.Location = new System.Drawing.Point(326, 240);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(57, 56);
+            this.label7.Size = new System.Drawing.Size(29, 28);
             this.label7.TabIndex = 187;
             this.label7.Text = "0";
             // 
@@ -280,10 +262,9 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Rockwell Extra Bold", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(698, 349);
-            this.label5.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.label5.Location = new System.Drawing.Point(349, 181);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(57, 56);
+            this.label5.Size = new System.Drawing.Size(29, 28);
             this.label5.TabIndex = 186;
             this.label5.Text = "0";
             // 
@@ -291,10 +272,9 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Rockwell Extra Bold", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(651, 349);
-            this.label4.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.label4.Location = new System.Drawing.Point(326, 181);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(57, 56);
+            this.label4.Size = new System.Drawing.Size(29, 28);
             this.label4.TabIndex = 185;
             this.label4.Text = "0";
             // 
@@ -302,10 +282,9 @@
             // 
             this.GovernmentMoneyLbl.AutoSize = true;
             this.GovernmentMoneyLbl.Font = new System.Drawing.Font("Rockwell Extra Bold", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.GovernmentMoneyLbl.Location = new System.Drawing.Point(1581, 879);
-            this.GovernmentMoneyLbl.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.GovernmentMoneyLbl.Location = new System.Drawing.Point(790, 457);
             this.GovernmentMoneyLbl.Name = "GovernmentMoneyLbl";
-            this.GovernmentMoneyLbl.Size = new System.Drawing.Size(57, 56);
+            this.GovernmentMoneyLbl.Size = new System.Drawing.Size(29, 28);
             this.GovernmentMoneyLbl.TabIndex = 184;
             this.GovernmentMoneyLbl.Text = "0";
             // 
@@ -313,10 +292,9 @@
             // 
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Rockwell Extra Bold", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(1087, 879);
-            this.label9.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.label9.Location = new System.Drawing.Point(544, 457);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(425, 56);
+            this.label9.Size = new System.Drawing.Size(212, 28);
             this.label9.TabIndex = 183;
             this.label9.Text = "Government $";
             // 
@@ -324,10 +302,9 @@
             // 
             this.TicketSalesLbl.AutoSize = true;
             this.TicketSalesLbl.Font = new System.Drawing.Font("Rockwell Extra Bold", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TicketSalesLbl.Location = new System.Drawing.Point(1581, 788);
-            this.TicketSalesLbl.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.TicketSalesLbl.Location = new System.Drawing.Point(790, 410);
             this.TicketSalesLbl.Name = "TicketSalesLbl";
-            this.TicketSalesLbl.Size = new System.Drawing.Size(57, 56);
+            this.TicketSalesLbl.Size = new System.Drawing.Size(29, 28);
             this.TicketSalesLbl.TabIndex = 182;
             this.TicketSalesLbl.Text = "0";
             // 
@@ -335,10 +312,9 @@
             // 
             this.TicketLbl.AutoSize = true;
             this.TicketLbl.Font = new System.Drawing.Font("Rockwell Extra Bold", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TicketLbl.Location = new System.Drawing.Point(1087, 788);
-            this.TicketLbl.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.TicketLbl.Location = new System.Drawing.Point(544, 410);
             this.TicketLbl.Name = "TicketLbl";
-            this.TicketLbl.Size = new System.Drawing.Size(365, 56);
+            this.TicketLbl.Size = new System.Drawing.Size(184, 28);
             this.TicketLbl.TabIndex = 181;
             this.TicketLbl.Text = "Ticket Sales";
             // 
@@ -346,10 +322,9 @@
             // 
             this.DonationMoneyLbl.AutoSize = true;
             this.DonationMoneyLbl.Font = new System.Drawing.Font("Rockwell Extra Bold", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.DonationMoneyLbl.Location = new System.Drawing.Point(1581, 701);
-            this.DonationMoneyLbl.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.DonationMoneyLbl.Location = new System.Drawing.Point(790, 365);
             this.DonationMoneyLbl.Name = "DonationMoneyLbl";
-            this.DonationMoneyLbl.Size = new System.Drawing.Size(57, 56);
+            this.DonationMoneyLbl.Size = new System.Drawing.Size(29, 28);
             this.DonationMoneyLbl.TabIndex = 180;
             this.DonationMoneyLbl.Text = "0";
             // 
@@ -357,10 +332,9 @@
             // 
             this.DonationsLbl.AutoSize = true;
             this.DonationsLbl.Font = new System.Drawing.Font("Rockwell Extra Bold", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.DonationsLbl.Location = new System.Drawing.Point(1089, 701);
-            this.DonationsLbl.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.DonationsLbl.Location = new System.Drawing.Point(544, 365);
             this.DonationsLbl.Name = "DonationsLbl";
-            this.DonationsLbl.Size = new System.Drawing.Size(321, 56);
+            this.DonationsLbl.Size = new System.Drawing.Size(161, 28);
             this.DonationsLbl.TabIndex = 179;
             this.DonationsLbl.Text = "Donations";
             // 
@@ -368,10 +342,9 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Bradley Hand ITC", 19.875F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(176, 239);
-            this.label2.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.label2.Location = new System.Drawing.Point(88, 124);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(406, 66);
+            this.label2.Size = new System.Drawing.Size(214, 34);
             this.label2.TabIndex = 178;
             this.label2.Text = "Cost of Animals";
             // 
@@ -379,10 +352,9 @@
             // 
             this.MoneyLbl.AutoSize = true;
             this.MoneyLbl.Font = new System.Drawing.Font("Bradley Hand ITC", 19.875F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.MoneyLbl.Location = new System.Drawing.Point(1088, 589);
-            this.MoneyLbl.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.MoneyLbl.Location = new System.Drawing.Point(544, 306);
             this.MoneyLbl.Name = "MoneyLbl";
-            this.MoneyLbl.Size = new System.Drawing.Size(366, 66);
+            this.MoneyLbl.Size = new System.Drawing.Size(193, 34);
             this.MoneyLbl.TabIndex = 177;
             this.MoneyLbl.Text = "Money Earned";
             // 
@@ -390,20 +362,18 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Bradley Hand ITC", 19.875F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(1088, 239);
-            this.label3.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.label3.Location = new System.Drawing.Point(544, 124);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(364, 66);
+            this.label3.Size = new System.Drawing.Size(192, 34);
             this.label3.TabIndex = 176;
             this.label3.Text = "Cost of Upkeep";
             this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // ContinueBtn
             // 
-            this.ContinueBtn.Location = new System.Drawing.Point(834, 1161);
-            this.ContinueBtn.Margin = new System.Windows.Forms.Padding(6);
+            this.ContinueBtn.Location = new System.Drawing.Point(417, 604);
             this.ContinueBtn.Name = "ContinueBtn";
-            this.ContinueBtn.Size = new System.Drawing.Size(310, 115);
+            this.ContinueBtn.Size = new System.Drawing.Size(155, 60);
             this.ContinueBtn.TabIndex = 175;
             this.ContinueBtn.Text = "Continue";
             this.ContinueBtn.UseVisualStyleBackColor = true;
@@ -413,10 +383,9 @@
             // 
             this.TotalMoneysLbl.AutoSize = true;
             this.TotalMoneysLbl.Font = new System.Drawing.Font("Rockwell Extra Bold", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TotalMoneysLbl.Location = new System.Drawing.Point(1156, 1044);
-            this.TotalMoneysLbl.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.TotalMoneysLbl.Location = new System.Drawing.Point(578, 543);
             this.TotalMoneysLbl.Name = "TotalMoneysLbl";
-            this.TotalMoneysLbl.Size = new System.Drawing.Size(57, 56);
+            this.TotalMoneysLbl.Size = new System.Drawing.Size(29, 28);
             this.TotalMoneysLbl.TabIndex = 174;
             this.TotalMoneysLbl.Text = "0";
             // 
@@ -424,10 +393,9 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Rockwell Extra Bold", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(664, 1044);
-            this.label1.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.label1.Location = new System.Drawing.Point(332, 543);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(426, 56);
+            this.label1.Size = new System.Drawing.Size(215, 28);
             this.label1.TabIndex = 173;
             this.label1.Text = "Total Moneys:";
             // 
@@ -435,20 +403,18 @@
             // 
             this.FishTakenLbl.AutoSize = true;
             this.FishTakenLbl.Font = new System.Drawing.Font("Rockwell Extra Bold", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.FishTakenLbl.Location = new System.Drawing.Point(544, 122);
-            this.FishTakenLbl.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.FishTakenLbl.Location = new System.Drawing.Point(272, 63);
             this.FishTakenLbl.Name = "FishTakenLbl";
-            this.FishTakenLbl.Size = new System.Drawing.Size(0, 56);
+            this.FishTakenLbl.Size = new System.Drawing.Size(0, 28);
             this.FishTakenLbl.TabIndex = 172;
             // 
             // EmployeeMoneyLbl
             // 
             this.EmployeeMoneyLbl.AutoSize = true;
             this.EmployeeMoneyLbl.Font = new System.Drawing.Font("Rockwell Extra Bold", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.EmployeeMoneyLbl.Location = new System.Drawing.Point(1581, 453);
-            this.EmployeeMoneyLbl.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.EmployeeMoneyLbl.Location = new System.Drawing.Point(790, 236);
             this.EmployeeMoneyLbl.Name = "EmployeeMoneyLbl";
-            this.EmployeeMoneyLbl.Size = new System.Drawing.Size(57, 56);
+            this.EmployeeMoneyLbl.Size = new System.Drawing.Size(29, 28);
             this.EmployeeMoneyLbl.TabIndex = 171;
             this.EmployeeMoneyLbl.Text = "0";
             // 
@@ -456,10 +422,9 @@
             // 
             this.GiftMoneyLbl.AutoSize = true;
             this.GiftMoneyLbl.Font = new System.Drawing.Font("Rockwell Extra Bold", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.GiftMoneyLbl.Location = new System.Drawing.Point(1581, 371);
-            this.GiftMoneyLbl.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.GiftMoneyLbl.Location = new System.Drawing.Point(790, 193);
             this.GiftMoneyLbl.Name = "GiftMoneyLbl";
-            this.GiftMoneyLbl.Size = new System.Drawing.Size(57, 56);
+            this.GiftMoneyLbl.Size = new System.Drawing.Size(29, 28);
             this.GiftMoneyLbl.TabIndex = 170;
             this.GiftMoneyLbl.Text = "0";
             // 
@@ -467,10 +432,9 @@
             // 
             this.KestrelMoneyLbl.AutoSize = true;
             this.KestrelMoneyLbl.Font = new System.Drawing.Font("Rockwell Extra Bold", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.KestrelMoneyLbl.Location = new System.Drawing.Point(609, 826);
-            this.KestrelMoneyLbl.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.KestrelMoneyLbl.Location = new System.Drawing.Point(304, 430);
             this.KestrelMoneyLbl.Name = "KestrelMoneyLbl";
-            this.KestrelMoneyLbl.Size = new System.Drawing.Size(57, 56);
+            this.KestrelMoneyLbl.Size = new System.Drawing.Size(29, 28);
             this.KestrelMoneyLbl.TabIndex = 169;
             this.KestrelMoneyLbl.Text = "0";
             // 
@@ -478,10 +442,9 @@
             // 
             this.CowMoneyLbl.AutoSize = true;
             this.CowMoneyLbl.Font = new System.Drawing.Font("Rockwell Extra Bold", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CowMoneyLbl.Location = new System.Drawing.Point(609, 701);
-            this.CowMoneyLbl.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.CowMoneyLbl.Location = new System.Drawing.Point(304, 365);
             this.CowMoneyLbl.Name = "CowMoneyLbl";
-            this.CowMoneyLbl.Size = new System.Drawing.Size(57, 56);
+            this.CowMoneyLbl.Size = new System.Drawing.Size(29, 28);
             this.CowMoneyLbl.TabIndex = 168;
             this.CowMoneyLbl.Text = "0";
             // 
@@ -489,10 +452,9 @@
             // 
             this.DeerMoneyLbl.AutoSize = true;
             this.DeerMoneyLbl.Font = new System.Drawing.Font("Rockwell Extra Bold", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.DeerMoneyLbl.Location = new System.Drawing.Point(609, 578);
-            this.DeerMoneyLbl.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.DeerMoneyLbl.Location = new System.Drawing.Point(304, 301);
             this.DeerMoneyLbl.Name = "DeerMoneyLbl";
-            this.DeerMoneyLbl.Size = new System.Drawing.Size(57, 56);
+            this.DeerMoneyLbl.Size = new System.Drawing.Size(29, 28);
             this.DeerMoneyLbl.TabIndex = 167;
             this.DeerMoneyLbl.Text = "0";
             // 
@@ -500,10 +462,9 @@
             // 
             this.SalamanderMoneyLbl.AutoSize = true;
             this.SalamanderMoneyLbl.Font = new System.Drawing.Font("Rockwell Extra Bold", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.SalamanderMoneyLbl.Location = new System.Drawing.Point(609, 462);
-            this.SalamanderMoneyLbl.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.SalamanderMoneyLbl.Location = new System.Drawing.Point(304, 240);
             this.SalamanderMoneyLbl.Name = "SalamanderMoneyLbl";
-            this.SalamanderMoneyLbl.Size = new System.Drawing.Size(57, 56);
+            this.SalamanderMoneyLbl.Size = new System.Drawing.Size(29, 28);
             this.SalamanderMoneyLbl.TabIndex = 166;
             this.SalamanderMoneyLbl.Text = "0";
             // 
@@ -511,10 +472,9 @@
             // 
             this.CatMoneyLbl.AutoSize = true;
             this.CatMoneyLbl.Font = new System.Drawing.Font("Rockwell Extra Bold", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CatMoneyLbl.Location = new System.Drawing.Point(609, 349);
-            this.CatMoneyLbl.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.CatMoneyLbl.Location = new System.Drawing.Point(304, 181);
             this.CatMoneyLbl.Name = "CatMoneyLbl";
-            this.CatMoneyLbl.Size = new System.Drawing.Size(57, 56);
+            this.CatMoneyLbl.Size = new System.Drawing.Size(29, 28);
             this.CatMoneyLbl.TabIndex = 165;
             this.CatMoneyLbl.Text = "0";
             // 
@@ -522,10 +482,9 @@
             // 
             this.EmployeeLbl.AutoSize = true;
             this.EmployeeLbl.Font = new System.Drawing.Font("Rockwell Extra Bold", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.EmployeeLbl.Location = new System.Drawing.Point(1059, 453);
-            this.EmployeeLbl.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.EmployeeLbl.Location = new System.Drawing.Point(530, 236);
             this.EmployeeLbl.Name = "EmployeeLbl";
-            this.EmployeeLbl.Size = new System.Drawing.Size(340, 56);
+            this.EmployeeLbl.Size = new System.Drawing.Size(171, 28);
             this.EmployeeLbl.TabIndex = 164;
             this.EmployeeLbl.Text = "Employees";
             // 
@@ -533,10 +492,9 @@
             // 
             this.GiftLbl.AutoSize = true;
             this.GiftLbl.Font = new System.Drawing.Font("Rockwell Extra Bold", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.GiftLbl.Location = new System.Drawing.Point(1103, 371);
-            this.GiftLbl.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.GiftLbl.Location = new System.Drawing.Point(552, 193);
             this.GiftLbl.Name = "GiftLbl";
-            this.GiftLbl.Size = new System.Drawing.Size(282, 56);
+            this.GiftLbl.Size = new System.Drawing.Size(141, 28);
             this.GiftLbl.TabIndex = 163;
             this.GiftLbl.Text = "Gift Shop";
             // 
@@ -544,10 +502,9 @@
             // 
             this.KestrelLbl.AutoSize = true;
             this.KestrelLbl.Font = new System.Drawing.Font("Rockwell Extra Bold", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.KestrelLbl.Location = new System.Drawing.Point(75, 826);
-            this.KestrelLbl.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.KestrelLbl.Location = new System.Drawing.Point(38, 430);
             this.KestrelLbl.Name = "KestrelLbl";
-            this.KestrelLbl.Size = new System.Drawing.Size(522, 56);
+            this.KestrelLbl.Size = new System.Drawing.Size(263, 28);
             this.KestrelLbl.TabIndex = 162;
             this.KestrelLbl.Text = "American Kestrel";
             // 
@@ -555,10 +512,9 @@
             // 
             this.CowLbl.AutoSize = true;
             this.CowLbl.Font = new System.Drawing.Font("Rockwell Extra Bold", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CowLbl.Location = new System.Drawing.Point(81, 701);
-            this.CowLbl.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.CowLbl.Location = new System.Drawing.Point(40, 365);
             this.CowLbl.Name = "CowLbl";
-            this.CowLbl.Size = new System.Drawing.Size(516, 56);
+            this.CowLbl.Size = new System.Drawing.Size(260, 28);
             this.CowLbl.TabIndex = 161;
             this.CowLbl.Text = "Black Angus Cow";
             // 
@@ -566,10 +522,9 @@
             // 
             this.DeerLbl.AutoSize = true;
             this.DeerLbl.Font = new System.Drawing.Font("Rockwell Extra Bold", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.DeerLbl.Location = new System.Drawing.Point(276, 578);
-            this.DeerLbl.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.DeerLbl.Location = new System.Drawing.Point(138, 301);
             this.DeerLbl.Name = "DeerLbl";
-            this.DeerLbl.Size = new System.Drawing.Size(160, 56);
+            this.DeerLbl.Size = new System.Drawing.Size(80, 28);
             this.DeerLbl.TabIndex = 160;
             this.DeerLbl.Text = "Deer";
             // 
@@ -577,10 +532,9 @@
             // 
             this.SalamanderLbl.AutoSize = true;
             this.SalamanderLbl.Font = new System.Drawing.Font("Rockwell Extra Bold", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.SalamanderLbl.Location = new System.Drawing.Point(57, 462);
-            this.SalamanderLbl.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.SalamanderLbl.Location = new System.Drawing.Point(28, 240);
             this.SalamanderLbl.Name = "SalamanderLbl";
-            this.SalamanderLbl.Size = new System.Drawing.Size(540, 56);
+            this.SalamanderLbl.Size = new System.Drawing.Size(271, 28);
             this.SalamanderLbl.TabIndex = 159;
             this.SalamanderLbl.Text = "Tiger Salamander";
             // 
@@ -588,10 +542,9 @@
             // 
             this.CatLbl.AutoSize = true;
             this.CatLbl.Font = new System.Drawing.Font("Rockwell Extra Bold", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CatLbl.Location = new System.Drawing.Point(214, 349);
-            this.CatLbl.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.CatLbl.Location = new System.Drawing.Point(107, 181);
             this.CatLbl.Name = "CatLbl";
-            this.CatLbl.Size = new System.Drawing.Size(247, 56);
+            this.CatLbl.Size = new System.Drawing.Size(124, 28);
             this.CatLbl.TabIndex = 158;
             this.CatLbl.Text = "Bob Cat";
             // 
@@ -600,19 +553,19 @@
             this.HeaderLbl.AutoSize = true;
             this.HeaderLbl.BackColor = System.Drawing.Color.Transparent;
             this.HeaderLbl.Font = new System.Drawing.Font("Bradley Hand ITC", 36F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.HeaderLbl.Location = new System.Drawing.Point(452, 2);
-            this.HeaderLbl.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.HeaderLbl.Location = new System.Drawing.Point(226, 1);
             this.HeaderLbl.Name = "HeaderLbl";
-            this.HeaderLbl.Size = new System.Drawing.Size(1016, 120);
+            this.HeaderLbl.Size = new System.Drawing.Size(514, 60);
             this.HeaderLbl.TabIndex = 157;
             this.HeaderLbl.Text = "ROUND 4 SUMMARY";
             this.HeaderLbl.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // Round4Summary
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1817, 1295);
+            this.BackColor = System.Drawing.Color.SeaGreen;
+            this.ClientSize = new System.Drawing.Size(908, 673);
             this.Controls.Add(this.label23);
             this.Controls.Add(this.label24);
             this.Controls.Add(this.label21);
@@ -661,6 +614,7 @@
             this.Controls.Add(this.SalamanderLbl);
             this.Controls.Add(this.CatLbl);
             this.Controls.Add(this.HeaderLbl);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "Round4Summary";
             this.Text = "Round4Summary";
             this.Load += new System.EventHandler(this.Round4Summary_Load);
